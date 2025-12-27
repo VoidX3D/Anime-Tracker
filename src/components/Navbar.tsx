@@ -2,14 +2,35 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { useState, useEffect } from 'react';
+
+type Theme = 'millennium' | 'cyberpunk' | 'monochrome';
 
 export default function Navbar() {
     const pathname = usePathname();
+    const [theme, setTheme] = useState<Theme>('millennium');
+
+    useEffect(() => {
+        const savedTheme = localStorage.getItem('at-theme') as Theme;
+        if (savedTheme) {
+            setTheme(savedTheme);
+            document.documentElement.setAttribute('data-theme', savedTheme);
+        }
+    }, []);
+
+    const toggleTheme = () => {
+        const themes: Theme[] = ['millennium', 'cyberpunk', 'monochrome'];
+        const nextIndex = (themes.indexOf(theme) + 1) % themes.length;
+        const nextTheme = themes[nextIndex];
+        setTheme(nextTheme);
+        document.documentElement.setAttribute('data-theme', nextTheme);
+        localStorage.setItem('at-theme', nextTheme);
+    };
 
     const isActive = (path: string) => pathname === path;
 
     return (
-        <nav className="sticky top-0 z-50 w-full border-b border-white/5 bg-background/80 backdrop-blur-2xl h-[var(--header-height)] shadow-2xl">
+        <nav className="sticky top-0 z-50 w-full border-b border-white/5 bg-background/80 backdrop-blur-2xl h-[72px] shadow-2xl">
             <div className="mx-auto flex h-full max-w-7xl items-center justify-between px-6">
                 <div className="flex items-center gap-10">
                     <Link href="/" className="flex items-center gap-2.5 group">
@@ -21,19 +42,26 @@ export default function Navbar() {
                         </span>
                     </Link>
 
-                    <div className="hidden md:flex items-center gap-1 bg-surface/50 p-1 rounded-xl border border-white/5">
+                    <div className="hidden lg:flex items-center gap-1 bg-surface/50 p-1 rounded-xl border border-white/5">
                         <NavLink href="/library" label="Library" icon={<LayoutGridIcon />} active={isActive('/library')} />
                         <NavLink href="/search" label="Search" icon={<SearchIcon />} active={isActive('/search')} />
-                        <NavLink href="/dashboard" label="Dashboard" icon={<BarChartIcon />} active={isActive('/dashboard')} />
-                        <NavLink href="/import" label="Import" icon={<UploadIcon />} active={isActive('/import')} />
-                        <NavLink href="/logs" label="Logs" icon={<FileTextIcon />} active={isActive('/logs')} />
+                        <NavLink href="/suggestions" label="Neural" icon={<SparklesIcon />} active={isActive('/suggestions')} />
+                        <NavLink href="/anime-section" label="Sectors" icon={<LayersIcon />} active={isActive('/anime-section')} />
+                        <NavLink href="/dashboard" label="Stats" icon={<BarChartIcon />} active={isActive('/dashboard')} />
+                        <NavLink href="/import" label="Uplink" icon={<UploadIcon />} active={isActive('/import')} />
                     </div>
                 </div>
 
                 <div className="flex items-center gap-4">
-                    <div className="flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-primary/5 border border-primary/20 text-[10px] font-black tracking-[0.2em] text-primary glow-text uppercase animate-pulse">
+                    <button
+                        onClick={toggleTheme}
+                        className="p-2.5 rounded-xl bg-surface/50 border border-white/5 text-text-muted hover:text-primary hover:glow-primary transition-all uppercase text-[10px] font-black tracking-widest"
+                    >
+                        {theme}
+                    </button>
+                    <div className="hidden sm:flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-primary/5 border border-primary/20 text-[10px] font-black tracking-[0.2em] text-primary glow-text uppercase animate-pulse">
                         <span className="w-2 h-2 rounded-full bg-primary shadow-[0_0_10px_var(--primary-glow)]" />
-                        Millennium Uplink
+                        UPLINK_STABLE
                     </div>
                 </div>
             </div>
@@ -46,7 +74,7 @@ function NavLink({ href, label, icon, active }: { href: string, label: string, i
         <Link
             href={href}
             className={`
-                flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-bold transition-all duration-300
+                flex items-center gap-2 px-3 py-2 rounded-lg text-[10px] font-black uppercase tracking-widest transition-all duration-300
                 ${active ? 'text-white bg-primary shadow-lg glow-primary' : 'text-text-muted hover:text-white hover:bg-white/5'}
             `}
         >
@@ -56,39 +84,10 @@ function NavLink({ href, label, icon, active }: { href: string, label: string, i
     )
 }
 
-// Icons (Simple SVGs)
-function LayoutGridIcon() {
-    return (
-        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="7" height="7" x="3" y="3" rx="1" /><rect width="7" height="7" x="14" y="3" rx="1" /><rect width="7" height="7" x="14" y="14" rx="1" /><rect width="7" height="7" x="3" y="14" rx="1" /></svg>
-    )
-}
-
-function BarChartIcon() {
-    return (
-        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="12" x2="12" y1="20" y2="10" /><line x1="18" x2="18" y1="20" y2="4" /><line x1="6" x2="6" y1="20" y2="16" /></svg>
-    )
-}
-
-function SearchIcon() {
-    return (
-        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8" /><path d="m21 21-4.3-4.3" /></svg>
-    )
-}
-
-function SettingsIcon() {
-    return (
-        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.1a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z" /><circle cx="12" cy="12" r="3" /></svg>
-    )
-}
-
-function UploadIcon() {
-    return (
-        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" /><polyline points="17 8 12 3 7 8" /><line x1="12" x2="12" y1="3" y2="15" /></svg>
-    )
-}
-
-function FileTextIcon() {
-    return (
-        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z" /><polyline points="14 2 14 8 20 8" /><line x1="16" x2="8" y1="13" y2="13" /><line x1="16" x2="8" y1="17" y2="17" /><line x1="10" x2="8" y1="9" y2="9" /></svg>
-    )
-}
+// Icons
+function LayoutGridIcon() { return <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><rect width="7" height="7" x="3" y="3" rx="1" /><rect width="7" height="7" x="14" y="3" rx="1" /><rect width="7" height="7" x="14" y="14" rx="1" /><rect width="7" height="7" x="3" y="14" rx="1" /></svg>; }
+function BarChartIcon() { return <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><line x1="12" x2="12" y1="20" y2="10" /><line x1="18" x2="18" y1="20" y2="4" /><line x1="6" x2="6" y1="20" y2="16" /></svg>; }
+function SearchIcon() { return <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8" /><path d="m21 21-4.3-4.3" /></svg>; }
+function UploadIcon() { return <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" /><polyline points="17 8 12 3 7 8" /><line x1="12" x2="12" y1="3" y2="15" /></svg>; }
+function SparklesIcon() { return <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="m12 3 1.912 5.813a2 2 0 0 0 1.275 1.275L21 12l-5.813 1.912a2 2 0 0 0-1.275 1.275L12 21l-1.912-5.813a2 2 0 0 0-1.275-1.275L3 12l5.813-1.912a2 2 0 0 0 1.275-1.275L12 3Z" /><path d="M5 3v4" /><path d="M19 17v4" /><path d="M3 5h4" /><path d="M17 19h4" /></svg>; }
+function LayersIcon() { return <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="m12.83 2.18a2 2 0 0 0-1.66 0L2.1 6.13a2 2 0 0 0 0 3.74l9.07 3.95a2 2 0 0 0 1.66 0l9.07-3.95a2 2 0 0 0 0-3.74Z" /><path d="m2.1 14.13 9.07 3.95a2 2 0 0 0 1.66 0l9.07-3.95" /><path d="m2.1 10.13 9.07 3.95a2 2 0 0 0 1.66 0l9.07-3.95" /></svg>; }

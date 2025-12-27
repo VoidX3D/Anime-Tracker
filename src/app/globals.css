@@ -1,50 +1,45 @@
 @import "tailwindcss";
 
 :root {
-  /* AniList Inspired Palette - Dark (Industrial Refinement) */
+  /* Millennium - Industrial Dark (Default) */
   --background: #0b1622;
   --surface: #151f2e;
   --surface-hover: #1f2937;
   --border: #233142;
-
   --primary: #3db4f2;
   --primary-hover: #1ea1e7;
   --primary-glow: rgba(61, 180, 242, 0.4);
-  --primary-foreground: #ffffff;
-
   --text-main: #edf1f5;
   --text-muted: #9fadbd;
 
-  --success: #00fa9a;
-  --warning: #f19f3d;
-  --error: #e85d75;
-
-  /* Spacing & Architecture */
-  --sidebar-width: 240px;
-  --header-height: 72px;
   --radius-sm: 4px;
   --radius-md: 8px;
   --radius-lg: 16px;
-  --radius-xl: 24px;
+  --radius-xl: 32px;
 }
 
-:root[data-theme="light"] {
-  --background: #edf1f5;
-  --surface: #ffffff;
-  --surface-hover: #fafafa;
-  --border: #e5e9f0;
+[data-theme='cyberpunk'] {
+  --background: #0d0221;
+  --surface: #19043d;
+  --surface-hover: #26065d;
+  --border: #31087b;
+  --primary: #f00d81;
+  --primary-hover: #ff00ff;
+  --primary-glow: rgba(240, 13, 129, 0.6);
+  --text-main: #ffffff;
+  --text-muted: #bc6ff1;
+}
 
-  --primary: #3db4f2;
-  --primary-hover: #1ea1e7;
-  --primary-glow: rgba(61, 180, 242, 0.2);
-  --primary-foreground: #ffffff;
-
-  --text-main: #516170;
-  --text-muted: #8ba0b2;
-
-  --success: #3db4f2;
-  --warning: #f39c12;
-  --error: #e74c3c;
+[data-theme='monochrome'] {
+  --background: #000000;
+  --surface: #111111;
+  --surface-hover: #1a1a1a;
+  --border: #333333;
+  --primary: #ffffff;
+  --primary-hover: #cccccc;
+  --primary-glow: rgba(255, 255, 255, 0.3);
+  --text-main: #ffffff;
+  --text-muted: #888888;
 }
 
 @layer base {

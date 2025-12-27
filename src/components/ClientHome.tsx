@@ -1,21 +1,50 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useRouter } from 'next/navigation';
+import { useState, useEffect } from 'react';
 import AnimeCard from '@/components/AnimeCard';
 import AnimeListRow from '@/components/AnimeListRow';
 import FilterBar from '@/components/FilterBar';
 import { Anime, UserAnimeStatus } from '@/types';
 
-interface ExtendedAnime extends Anime {
-    userStatus?: UserAnimeStatus;
+interface ClientHomeProps {
+    initialData: Anime[];
+    totalHits: number;
+    genres: string[];
+    currentParams: {
+        page: number;
+        search: string;
+        status: UserAnimeStatus | 'ALL';
+        genre: string;
+        sort: string;
+    };
 }
 
-export default function ClientHome({ initialData }: { initialData: ExtendedAnime[] }) {
-    const [search, setSearch] = useState('');
-    const [sort, setSort] = useState('pop_desc');
+export default function ClientHome({ initialData, totalHits, genres, currentParams }: ClientHomeProps) {
+    const router = useRouter();
     const [view, setView] = useState<'grid' | 'list'>('grid');
-    const [genre, setGenre] = useState('');
-    const [activeStatus, setActiveStatus] = useState<UserAnimeStatus | 'ALL'>('ALL');
+    const [isMounted, setIsMounted] = useState(false);
+
+    useEffect(() => {
+        const savedView = localStorage.getItem('library-view') as 'grid' | 'list';
+        if (savedView) setView(savedView);
+        setIsMounted(true);
+    }, []);
+
+    const handleSetView = (v: 'grid' | 'list') => {
+        setView(v);
+        localStorage.setItem('library-view', v);
+    };
+
+    const updateParams = (updates: Record<string, string | number>) => {
+        const params = new URLSearchParams(window.location.search);
+        Object.entries(updates).forEach(([key, value]) => {
+            if (value === 'ALL' || value === '') params.delete(key);
+            else params.set(key, value.toString());
+        });
+        params.set('page', '1'); // Reset to page 1 on filter
+        router.push(`/library?${params.toString()}`);
+    };
 
     const statusTabs: { id: UserAnimeStatus | 'ALL', label: string }[] = [
         { id: 'ALL', label: 'All Library' },
@@ -26,169 +55,76 @@ export default function ClientHome({ initialData }: { initialData: ExtendedAnime
         { id: 'DROPPED', label: 'Dropped' },
     ];
 
-    // 1. Get all unique genres for filter
-    const allGenres = useMemo(() => {
-        const set = new Set<string>();
-        initialData.forEach(a => a.genres?.forEach(g => set.add(g)));
-        return Array.from(set).sort();
-    }, [initialData]);
-
-    // 2. Recommendation Engine Logic
-    const suggestions = useMemo(() => {
-        // Find favorite genres from COMPLETED/WATCHING
-        const favoriteGenres: Record<string, number> = {};
-        initialData.filter(a => a.userStatus === 'COMPLETED' || a.userStatus === 'TO_WATCH').forEach(a => {
-            a.genres?.forEach(g => {
-                favoriteGenres[g] = (favoriteGenres[g] || 0) + 1;
-            });
-        });
-
-        // Filter out anime already in list (except TO_WATCH/PLANNING maybe? No, let's suggest new things or Planning)
-        const unStarted = initialData.filter(a => !a.userStatus || a.userStatus === 'PLANNING' || a.userStatus === 'UNKNOWN');
-
-        // Score them
-        const scored = unStarted.map(a => {
-            let score = 0;
-            a.genres?.forEach(g => {
-                score += favoriteGenres[g] || 0;
-            });
-            // Boost by popularity/score slightly
-            score += (a.average_score || 0) / 10;
-            return { ...a, recScore: score };
-        });
-
-        return scored.sort((a, b) => b.recScore - a.recScore).slice(0, 10);
-    }, [initialData]);
-
-    // 3. Filtering & Sorting for main library
-    const filtered = useMemo(() => {
-        let result = initialData;
-
-        if (activeStatus !== 'ALL') {
-            result = result.filter(a => a.userStatus === activeStatus);
-        }
-
-        if (search) {
-            const lower = search.toLowerCase();
-            result = result.filter(a =>
-            (a.title_english?.toLowerCase().includes(lower) ||
-                a.title_romaji?.toLowerCase().includes(lower))
-            );
-        }
-
-        if (genre) {
-            result = result.filter(a => a.genres?.includes(genre));
-        }
-
-        result.sort((a, b) => {
-            if (sort === 'pop_desc') return (b.popularity || 0) - (a.popularity || 0);
-            if (sort === 'score_desc') return (b.average_score || 0) - (a.average_score || 0);
-            if (sort === 'title_asc') return (a.title_english || a.title_romaji || '').localeCompare(b.title_english || b.title_romaji || '');
-            if (sort === 'year_desc') return (b.start_date || '').localeCompare(a.start_date || '');
-            if (sort === 'eps_desc') return (b.episodes || 0) - (a.episodes || 0);
-            return 0;
-        });
-
-        return result;
-    }, [initialData, search, sort, genre, activeStatus]);
+    if (!isMounted) return <div className="min-h-[400px] flex items-center justify-center"><div className="h-8 w-8 border-2 border-primary border-t-transparent rounded-full animate-spin" /></div>;
 
     return (
-        <div className="space-y-12">
-            {/* Suggestions High-Intensity Tray (Only show if not searching/filtering) */}
-            {!search && !genre && activeStatus === 'ALL' && suggestions.length > 0 && (
-                <section className="space-y-4">
-                    <div className="flex items-center gap-3">
-                        <div className="h-6 w-1.5 bg-primary rounded-full shadow-[0_0_10px_rgba(37,99,235,0.5)]" />
-                        <h2 className="text-xl font-black text-white uppercase tracking-wider">Neural Suggestions</h2>
-                        <span className="text-[10px] font-mono text-text-muted border border-border px-1.5 py-0.5 rounded uppercase">Based on history</span>
-                    </div>
-
-                    <div className="flex gap-4 overflow-x-auto pb-4 pt-2 -mx-2 px-2 scrollbar-none snap-x mask-fade-right">
-                        {suggestions.map(anime => (
-                            <div key={anime.id} className="w-[180px] shrink-0 snap-start transform transition-transform hover:scale-[1.02]">
-                                <AnimeCard
-                                    anime={anime}
-                                    status={anime.userStatus}
-                                    showStatus={false}
-                                />
-                            </div>
-                        ))}
-                    </div>
-                </section>
-            )}
-
+        <div className="space-y-12 animate-fade-in stagger-2">
             {/* Main Library Control */}
             <section className="space-y-8">
                 {/* Status Tabs UI */}
-                <div className="flex items-center gap-1 border-b border-border p-1 overflow-x-auto scrollbar-none">
+                <div className="flex items-center gap-1 border-b border-white/5 p-1 overflow-x-auto scrollbar-none">
                     {statusTabs.map(tab => (
                         <button
                             key={tab.id}
-                            onClick={() => setActiveStatus(tab.id)}
-                            className={`px-6 py-3 rounded-t-xl text-sm font-bold tracking-tight transition-all relative whitespace-nowrap ${activeStatus === tab.id
-                                ? 'text-primary'
-                                : 'text-text-muted hover:text-text-main hover:bg-surface/30'
+                            onClick={() => updateParams({ status: tab.id })}
+                            className={`px-8 py-4 rounded-t-2xl text-sm font-black tracking-widest transition-all relative whitespace-nowrap uppercase ${currentParams.status === tab.id
+                                ? 'text-primary glow-text bg-primary/5'
+                                : 'text-text-muted hover:text-white hover:bg-white/5'
                                 }`}
                         >
                             {tab.label}
-                            {activeStatus === tab.id && (
-                                <div className="absolute bottom-0 left-0 w-full h-1 bg-primary rounded-full shadow-[0_0_10px_rgba(37,99,235,0.5)]" />
+                            {currentParams.status === tab.id && (
+                                <div className="absolute bottom-[-1px] left-0 w-full h-[3px] bg-primary rounded-full shadow-[0_0_15px_var(--primary-glow)]" />
                             )}
                         </button>
                     ))}
                 </div>
 
                 <FilterBar
-                    search={search} setSearch={setSearch}
-                    sort={sort} setSort={setSort}
-                    view={view} setView={setView}
-                    genre={genre} setGenre={setGenre}
-                    genres={allGenres}
-                    total={filtered.length}
+                    search={currentParams.search}
+                    setSearch={(s) => updateParams({ search: s })}
+                    sort={currentParams.sort}
+                    setSort={(s) => updateParams({ sort: s })}
+                    view={view}
+                    setView={handleSetView}
+                    genre={currentParams.genre}
+                    setGenre={(g) => updateParams({ genre: g })}
+                    genres={genres}
+                    total={totalHits}
                 />
 
                 {view === 'grid' ? (
                     <div className="dense-grid">
-                        {filtered.map(anime => (
-                            <AnimeCard
-                                key={anime.id}
-                                anime={anime}
-                                status={anime.userStatus}
-                                showStatus={true}
-                            />
+                        {initialData.map((anime, idx) => (
+                            <div key={anime.id} className={`animate-fade-in stagger-${(idx % 5) + 1}`}>
+                                <AnimeCard
+                                    anime={anime}
+                                    status={anime.ustatus as UserAnimeStatus}
+                                    showStatus={true}
+                                />
+                            </div>
                         ))}
                     </div>
                 ) : (
-                    <div className="bg-surface rounded-xl overflow-hidden shadow-sm border border-border/50">
+                    <div className="glass-card rounded-[2rem] overflow-hidden shadow-2xl border-white/5">
                         {/* List Header */}
-                        <div className="flex items-center gap-4 py-3 px-4 bg-background/50 border-b border-border text-[10px] font-black text-text-muted uppercase tracking-widest">
-                            <div className="w-8 text-center shrink-0">#</div>
+                        <div className="flex items-center gap-6 py-4 px-8 bg-background/50 border-b border-white/5 text-[10px] font-black text-text-muted uppercase tracking-[0.3em]">
+                            <div className="w-8 text-center shrink-0 opacity-40">SEQ</div>
                             <div className="w-12 shrink-0" />
-                            <div className="flex-1">Title</div>
-                            <div className="w-16 text-center shrink-0">Score</div>
-                            <div className="w-20 text-center shrink-0 hidden sm:block">Format</div>
-                            <div className="w-20 text-center shrink-0 hidden md:block">Episodes</div>
-                            <div className="w-24 text-right shrink-0">Status</div>
+                            <div className="flex-1">DESIGNATION</div>
+                            <div className="w-16 text-center shrink-0">MAGNITUDE</div>
+                            <div className="w-20 text-center shrink-0 hidden sm:block">CLASS</div>
+                            <div className="w-20 text-center shrink-0 hidden md:block">CYCLES</div>
+                            <div className="w-24 text-right shrink-0">STATUS</div>
                         </div>
-                        {filtered.map((anime, idx) => (
+                        {initialData.map((anime, idx) => (
                             <AnimeListRow
                                 key={anime.id}
                                 anime={anime}
-                                status={anime.userStatus}
-                                index={idx}
+                                status={anime.ustatus as UserAnimeStatus}
+                                index={idx + (currentParams.page - 1) * 30}
                             />
                         ))}
-                    </div>
-                )}
-
-                {filtered.length === 0 && (
-                    <div className="py-40 text-center border-2 border-dashed border-border rounded-3xl group">
-                        <div className="inline-flex h-16 w-16 items-center justify-center rounded-full bg-surface border border-border mb-4 text-text-muted group-hover:rotate-12 transition-transform">
-                            <SearchIcon className="h-8 w-8" />
-                        </div>
-                        <h3 className="text-xl font-bold text-white mb-1">Zero Results Found</h3>
-                        <p className="text-text-muted">Refine your scanning parameters or update the repository.</p>
-                        <button onClick={() => { setSearch(''); setGenre(''); }} className="mt-4 text-primary font-bold hover:underline">Clear all filters</button>
                     </div>
                 )}
             </section>

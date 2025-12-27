@@ -74,48 +74,54 @@ export async function applyChange(diff: DiffItem) {
         if (diff.type === 'NEW') {
             // 1. Full Scrape from AniList
             const richData = await fetchAniList(diff.id);
+            if (!richData) return { error: 'Failed to fetch data from AniList' };
 
-            if (!richData) {
-                return { error: 'Failed to fetch data from AniList' };
-            }
+            // 2. Dual-Archive Ingestion
+            // Update primary Millennium Archive
+            const { error: animeError } = await supabase.from('animes').upsert({
+                ...richData,
+                ustatus: diff.newStatus
+            });
+            if (animeError) throw new Error('Millennium Archive Error: ' + animeError.message);
 
-            // 2. Insert/Update Anime Table
-            const { error: animeError } = await supabase.from('animes').upsert(richData);
-            if (animeError) throw new Error('DB Error: ' + animeError.message);
-
-            // 3. Update User Status
-            const { error: listError } = await supabase.from('user_anime_lists').upsert({
+            // Update legacy repository
+            await supabase.from('user_anime_lists').delete().eq('anime_id', diff.id);
+            const { error: listError } = await supabase.from('user_anime_lists').insert({
                 anime_id: diff.id,
                 status: diff.newStatus
             });
-            if (listError) throw new Error('DB List Error: ' + listError.message);
+            if (listError) throw new Error('Legacy Repository Error: ' + listError.message);
 
         } else if (diff.type === 'STATUS_CHANGE') {
-            await supabase.from('user_anime_lists').upsert({
+            // 1. Update Millennium Archive
+            const { error: animeError } = await supabase.from('animes').update({
+                ustatus: diff.newStatus
+            }).eq('id', diff.id);
+            if (animeError) throw new Error('Millennium Archive Update Error: ' + animeError.message);
+
+            // 2. Update Legacy Repository
+            await supabase.from('user_anime_lists').delete().eq('anime_id', diff.id);
+            await supabase.from('user_anime_lists').insert({
                 anime_id: diff.id,
                 status: diff.newStatus
-            }, { onConflict: 'anime_id' });
+            });
         }
 
-        // Log it
+        // Log Mission Event
         await supabase.from('system_logs').insert({
-            event_type: 'APPLY_CHANGE',
-            description: `Applied ${diff.type} for ID ${diff.id} (${diff.title})`,
+            event_type: 'SYNC_PROTOCOL',
+            description: `Synchronized ${diff.type} for ID ${diff.id} [${diff.title}]`,
             meta: diff
         });
 
         revalidatePath('/dashboard');
         revalidatePath('/');
+        revalidatePath('/library');
         return { success: true };
 
     } catch (e: any) {
         console.error(e);
-        await supabase.from('system_logs').insert({
-            event_type: 'ERROR',
-            description: `Failed to apply change for ${diff.id}`,
-            meta: { error: e.message }
-        });
-        return { error: e.message || 'Failed to apply change' };
+        return { error: e.message || 'Mission Failure' };
     }
 }
 

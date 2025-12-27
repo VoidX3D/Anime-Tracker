@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { Anime, UserAnimeStatus } from '@/types';
+import NeuralImage from './NeuralImage';
 
 interface AnimeCardProps {
     anime: Anime;
@@ -26,20 +27,14 @@ export default function AnimeCard({ anime, status, showStatus = true }: AnimeCar
             className="group block space-y-3 animate-fade-in hover-bloom h-full"
         >
             {/* Image Container */}
-            <div className="relative aspect-[2/3] w-full rounded-xl overflow-hidden glass-card shadow-2xl border border-white/5 transition-all duration-500 group-hover:glow-primary group-hover:border-primary/30">
-                {anime.cover_image ? (
-                    <Image
-                        src={anime.cover_image}
-                        alt={title}
-                        fill
-                        className="object-cover transition-transform duration-700 group-hover:scale-110 group-hover:rotate-1"
-                        sizes="(max-width: 768px) 50vw, 20vw"
-                    />
-                ) : (
-                    <div className="w-full h-full flex items-center justify-center bg-surface-hover text-text-muted font-mono text-[10px] tracking-tighter uppercase">
-                        Archive_Pending
-                    </div>
-                )}
+            <div className="relative w-full aspect-[2/3] min-h-[250px] rounded-xl overflow-hidden glass-card shadow-2xl border border-white/5 transition-all duration-500 group-hover:glow-primary group-hover:border-primary/30 bg-surface/30">
+                <NeuralImage
+                    src={anime.cover_image!}
+                    alt={title}
+                    fill
+                    className="object-cover transition-transform duration-700 group-hover:scale-110 group-hover:rotate-1"
+                    sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 20vw"
+                />
 
                 {/* Industrial Overlays */}
                 <div className="absolute inset-x-0 bottom-0 p-4 bg-gradient-to-t from-black/90 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col gap-2 translate-y-2 group-hover:translate-y-0">
