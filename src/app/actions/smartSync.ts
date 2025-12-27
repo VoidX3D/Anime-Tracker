@@ -61,17 +61,17 @@ export async function smartSyncAction(fileData: any) {
             }
         }
 
-        // Batch update ustatus
+        // Surgical update ustatus
         if (updates.length > 0) {
-            // Supabase doesn't have a direct "update multiple rows with different values" in a simple call 
-            // without using rpc or upsert with all columns.
-            // Since we only want to update ustatus, we can use a loop or a clever upsert.
-            // We'll use a loop for safety since it's a small number of updates (<500), 
-            // but for performance we'd use a postgres function.
+            console.log(`Processing ${updates.length} surgical updates...`);
 
-            for (const chunk of chunkArray(updates, 50)) {
-                const { error } = await supabase.from('animes').upsert(chunk, { onConflict: 'id' });
-                if (error) throw error;
+            for (const chunk of chunkArray(updates, 20)) {
+                await Promise.all(chunk.map(update =>
+                    supabase
+                        .from('animes')
+                        .update({ ustatus: update.ustatus })
+                        .eq('id', update.id)
+                ));
             }
         }
 

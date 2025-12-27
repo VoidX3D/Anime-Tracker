@@ -42,7 +42,10 @@ export default function RelatedAnime({ relations }: { relations: RelatedAnimeIte
                             )}
 
                             {/* Relation Type Badge */}
-                            <div className="absolute top-2 left-2 px-1.5 py-0.5 bg-black/60 backdrop-blur-md rounded text-[8px] font-black text-white uppercase tracking-tighter border border-white/10">
+                            <div className={`absolute top-2 left-2 px-2 py-0.5 backdrop-blur-md rounded text-[9px] font-black text-white uppercase tracking-tighter border ${rel.type === 'SEQUEL' ? 'bg-emerald-500/60 border-emerald-400/30' :
+                                    rel.type === 'PREQUEL' ? 'bg-amber-500/60 border-amber-400/30' :
+                                        'bg-black/60 border-white/10'
+                                }`}>
                                 {rel.type.replace('_', ' ')}
                             </div>
                         </div>
@@ -51,9 +54,12 @@ export default function RelatedAnime({ relations }: { relations: RelatedAnimeIte
                             <h4 className="text-[11px] font-bold text-text-main line-clamp-2 leading-tight group-hover:text-primary transition-colors">
                                 {rel.title}
                             </h4>
-                            <div className="text-[9px] font-bold text-text-muted uppercase tracking-tight">
-                                {rel.format} • {rel.status.replace('_', ' ')}
-                                {rel.season && ` • ${rel.season} ${rel.season_year}`}
+                            <div className="text-[9px] font-bold text-text-muted uppercase tracking-tight flex items-center gap-1.5">
+                                <span className={rel.status === 'FINISHED' ? 'text-emerald-400' : 'text-primary'}>
+                                    {rel.format}
+                                </span>
+                                <span className="opacity-30">•</span>
+                                <span>{rel.season} {rel.season_year}</span>
                             </div>
                         </div>
                     </Link>

@@ -1,0 +1,4164 @@
+[
+  {
+    "id": 15177,
+    "idMal": 15177,
+    "title": {
+      "romaji": "Macross FB7: Ginga Rukon - Ore no Uta wo Kike!",
+      "english": "Macross Fb7 Listen to My Song!",
+      "native": "マクロスFB7 銀河流魂 オレノウタヲキケ!"
+    },
+    "description": "In 2059, five decades after the Space War I conflict seen in the first Macross story. Macross Frontier, the 25th New Macross Class super-long-distance colonization fleet, is journeying through the galaxy to a new paradise to call home. However, it is locked in a state of war with a strange enemy called Vajra.<br><br>\r\nMacross FB7 is the 30th anniversary work of the Macross franchise.",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15177.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15177.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/15177.jpg"
+    },
+    "startDate": {
+      "year": 2012,
+      "month": 10,
+      "day": 20
+    },
+    "endDate": {
+      "year": 2012,
+      "month": 10,
+      "day": 20
+    },
+    "status": "FINISHED",
+    "episodes": 1,
+    "duration": 91,
+    "genres": [
+      "Action",
+      "Mecha",
+      "Music",
+      "Romance",
+      "Sci-Fi"
+    ],
+    "averageScore": 59,
+    "popularity": 2039,
+    "favourites": 6,
+    "studios": {
+      "nodes": []
+    },
+    "source": null,
+    "siteUrl": "https://anilist.co/anime/15177",
+    "format": "MOVIE",
+    "season": "FALL",
+    "seasonYear": 2012,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "ALTERNATIVE",
+          "node": {
+            "id": 1397,
+            "title": {
+              "romaji": "Macross 7",
+              "english": "Macross 7"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1397-D9MLYHZhOnYO.png"
+            },
+            "status": "FINISHED",
+            "format": "TV",
+            "season": "FALL",
+            "seasonYear": 1994
+          }
+        },
+        {
+          "relationType": "PARENT",
+          "node": {
+            "id": 3572,
+            "title": {
+              "romaji": "Macross Frontier",
+              "english": "Macross Frontier"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx3572-qYJhokKdsnZR.png"
+            },
+            "status": "FINISHED",
+            "format": "TV",
+            "season": "SPRING",
+            "seasonYear": 2008
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 15195,
+    "idMal": 15195,
+    "title": {
+      "romaji": "Hetalia: The Beautiful World",
+      "english": "Hetalia: The Beautiful World",
+      "native": "ヘタリア The Beautiful World"
+    },
+    "description": "The fifth season of <i>Hetalia</i>.<br>\n<br>\nThey said it couldn’t happen, but they were as wrong as a stack of pancakes in a cage full of bears! The adorable boys of Hetalia are back with some new friends and a super sparkly new look.<br>\n<br>\nWhat’s more fun than Germany squatting in a dandelion patch? How about the Axis Boys joining the witchcraft club? Or maybe Russia suffering through a traumatic hamster flashback? Any way you slice the spaghetti, every cute boy enjoys a little quality bath time, and Turkey and Greece can’t wait to start splishing and splashing! Fall in love with this new and improved, sparklelicious season of Hetalia as Belgium throws a mouthwatering waffle party, and America shows off his sweet dance moves! We swear you won’t be disappointed – even when Santa Claus goes missing and Canada (who’s that?) tries to replace him with a polar bear! A POLAR BEAR!? Hetalia, you so cray cray. We’ve missed the squee outta ya!<br>\n<br>\n(Source: Funimation)",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15195.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15195.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/15195.jpg"
+    },
+    "startDate": {
+      "year": 2013,
+      "month": 1,
+      "day": 25
+    },
+    "endDate": {
+      "year": 2013,
+      "month": 6,
+      "day": 21
+    },
+    "status": "FINISHED",
+    "episodes": 20,
+    "duration": 5,
+    "genres": [
+      "Comedy"
+    ],
+    "averageScore": 69,
+    "popularity": 11382,
+    "favourites": 92,
+    "studios": {
+      "nodes": []
+    },
+    "source": "MANGA",
+    "siteUrl": "https://anilist.co/anime/15195",
+    "format": "ONA",
+    "season": "WINTER",
+    "seasonYear": 2013,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "PREQUEL",
+          "node": {
+            "id": 8479,
+            "title": {
+              "romaji": "Hetalia World Series",
+              "english": "Hetalia World Series"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b8479-dwf4MppZB8Do.png"
+            },
+            "status": "FINISHED",
+            "format": "ONA",
+            "season": "SPRING",
+            "seasonYear": 2010
+          }
+        },
+        {
+          "relationType": "ADAPTATION",
+          "node": {
+            "id": 38878,
+            "title": {
+              "romaji": "Hetalia Axis Powers",
+              "english": "Hetalia Axis Powers"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx38878-7qAOVct9KsH9.jpg"
+            },
+            "status": "FINISHED",
+            "format": "MANGA",
+            "season": null,
+            "seasonYear": null
+          }
+        },
+        {
+          "relationType": "SIDE_STORY",
+          "node": {
+            "id": 17273,
+            "title": {
+              "romaji": "Hetalia: The Beautiful World OVA",
+              "english": "Hetalia: The Beautiful World OVA"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/17273.jpg"
+            },
+            "status": "FINISHED",
+            "format": "OVA",
+            "season": "SPRING",
+            "seasonYear": 2013
+          }
+        },
+        {
+          "relationType": "SEQUEL",
+          "node": {
+            "id": 20962,
+            "title": {
+              "romaji": "Hetalia: The World Twinkle",
+              "english": "Hetalia: The World Twinkle"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/20962-S7jrzOP1elt7.jpg"
+            },
+            "status": "FINISHED",
+            "format": "ONA",
+            "season": "SUMMER",
+            "seasonYear": 2015
+          }
+        },
+        {
+          "relationType": "SIDE_STORY",
+          "node": {
+            "id": 102036,
+            "title": {
+              "romaji": "Hetalia: The Beautiful World Extra Disc",
+              "english": "Hetalia: The Beautiful World Extra Disc"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/102036-CZn0lhPM1mHZ.jpg"
+            },
+            "status": "FINISHED",
+            "format": "OVA",
+            "season": "WINTER",
+            "seasonYear": 2014
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 15197,
+    "idMal": 15197,
+    "title": {
+      "romaji": "Code Geass: Boukoku no Akito 2 - Hikisakareshi Yokuryuu",
+      "english": "Code Geass: Akito the Exiled - The Wyvern Divided",
+      "native": "コードギアス 亡国のアキト 第2章 引き裂かれし翼竜"
+    },
+    "description": "With her previous triumphs under her belt, Leila Malcal has now been promoted to Lieutenant Colonel and commanding officer of W-0. After having foiled an attempt to kidnap the General of the European army, she recruits the three perpetrators in order to make up for the lack of W-0's pilots. Ayano Kosaka, Yukiya Naruse, and ringleader Ryou Sayama accept, in hopes of finding a place to belong. When they are ordered to perform a commando raid by dropping into enemy lines, Leila decides to join them to prevent unnecessary casualties.\n<br><br>\nAs the unit rushes into the fight, Akito finds himself possessed by an uncontrollable lust for violence, slaughtering anyone that gets in his way. Little does he know, he is soon to come face to face with the one responsible for placing the bloodthirsty curse upon him, someone he is far too familiar with...\n<br><br>\n(Source: MAL Rewrite)",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/15197-OSkcwbwXkSjn.jpg",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15197-edOzRqxHnJrd.png",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx15197-edOzRqxHnJrd.png",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx15197-edOzRqxHnJrd.png"
+    },
+    "startDate": {
+      "year": 2013,
+      "month": 9,
+      "day": 14
+    },
+    "endDate": {
+      "year": 2013,
+      "month": 9,
+      "day": 14
+    },
+    "status": "FINISHED",
+    "episodes": 1,
+    "duration": 56,
+    "genres": [
+      "Action",
+      "Mecha",
+      "Sci-Fi"
+    ],
+    "averageScore": 70,
+    "popularity": 27208,
+    "favourites": 125,
+    "studios": {
+      "nodes": [
+        {
+          "name": "Sunrise"
+        }
+      ]
+    },
+    "source": "ORIGINAL",
+    "siteUrl": "https://anilist.co/anime/15197",
+    "format": "MOVIE",
+    "season": "FALL",
+    "seasonYear": 2013,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "PREQUEL",
+          "node": {
+            "id": 8888,
+            "title": {
+              "romaji": "Code Geass: Boukoku no Akito 1 - Yokuryuu wa Maiorita",
+              "english": "Code Geass: Akito the Exiled - The Wyvern Arrives"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx8888-zrICq6gQTxP8.jpg"
+            },
+            "status": "FINISHED",
+            "format": "MOVIE",
+            "season": "SUMMER",
+            "seasonYear": 2012
+          }
+        },
+        {
+          "relationType": "SEQUEL",
+          "node": {
+            "id": 15199,
+            "title": {
+              "romaji": "Code Geass: Boukoku no Akito 3 - Kagayakumono Ten Yori Otsu",
+              "english": "Code Geass: Akito the Exiled - The Brightness Falls"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx15199-B8vR4NAGWb2s.jpg"
+            },
+            "status": "FINISHED",
+            "format": "MOVIE",
+            "season": "SPRING",
+            "seasonYear": 2015
+          }
+        },
+        {
+          "relationType": "OTHER",
+          "node": {
+            "id": 109002,
+            "title": {
+              "romaji": "Code Geass: Boukoku no Akito 2 - Hikisakareshi Yokuryuu Picture Drama",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b109002-a9XsiOylyLer.jpg"
+            },
+            "status": "FINISHED",
+            "format": "SPECIAL",
+            "season": "FALL",
+            "seasonYear": 2013
+          }
+        },
+        {
+          "relationType": "ADAPTATION",
+          "node": {
+            "id": 96683,
+            "title": {
+              "romaji": "Code Geass: Boukoku no Akito",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/96683-FXd7YTocEjnF.jpg"
+            },
+            "status": "FINISHED",
+            "format": "NOVEL",
+            "season": null,
+            "seasonYear": null
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 15199,
+    "idMal": 15199,
+    "title": {
+      "romaji": "Code Geass: Boukoku no Akito 3 - Kagayakumono Ten Yori Otsu",
+      "english": "Code Geass: Akito the Exiled - The Brightness Falls",
+      "native": "コードギアス 亡国のアキト 第3章 輝くもの天より墮つ"
+    },
+    "description": "After discovering the face of their true enemy—someone who is related to Akito and responsible for the Geass placed upon him—W-0 attempts to return to their base at Castle Weisswolf. However, stranded in Warsaw due to a complication involving their military identification, they are forced to accept the help of local gypsies, allowing the squad to take some time to deepen their bonds.\n<br><br>\nMeanwhile, Britannian advisor Julius Kingsley and his guard Suzaku Kururugi begin working together with the Knights of St. Michael in order to crush the European resistance once and for all, armed with the destructive power of a giant weapon known as the Ark Fleet.\n<br><br>\n(Source: MAL Rewrite)",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/15199-TCpFRD98AiJ7.jpg",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15199-B8vR4NAGWb2s.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx15199-B8vR4NAGWb2s.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx15199-B8vR4NAGWb2s.jpg"
+    },
+    "startDate": {
+      "year": 2015,
+      "month": 5,
+      "day": 2
+    },
+    "endDate": {
+      "year": 2015,
+      "month": 5,
+      "day": 2
+    },
+    "status": "FINISHED",
+    "episodes": 1,
+    "duration": 59,
+    "genres": [
+      "Action",
+      "Mecha",
+      "Sci-Fi"
+    ],
+    "averageScore": 69,
+    "popularity": 24183,
+    "favourites": 132,
+    "studios": {
+      "nodes": [
+        {
+          "name": "Sunrise"
+        }
+      ]
+    },
+    "source": "ORIGINAL",
+    "siteUrl": "https://anilist.co/anime/15199",
+    "format": "MOVIE",
+    "season": "SPRING",
+    "seasonYear": 2015,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "PREQUEL",
+          "node": {
+            "id": 15197,
+            "title": {
+              "romaji": "Code Geass: Boukoku no Akito 2 - Hikisakareshi Yokuryuu",
+              "english": "Code Geass: Akito the Exiled - The Wyvern Divided"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx15197-edOzRqxHnJrd.png"
+            },
+            "status": "FINISHED",
+            "format": "MOVIE",
+            "season": "FALL",
+            "seasonYear": 2013
+          }
+        },
+        {
+          "relationType": "SEQUEL",
+          "node": {
+            "id": 15201,
+            "title": {
+              "romaji": "Code Geass: Boukoku no Akito 4 - Nikushimi no Kioku Kara",
+              "english": "Code Geass: Akito the Exiled - Memories of Hatred"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx15201-JqRtOF8UH3P5.jpg"
+            },
+            "status": "FINISHED",
+            "format": "MOVIE",
+            "season": "SUMMER",
+            "seasonYear": 2015
+          }
+        },
+        {
+          "relationType": "OTHER",
+          "node": {
+            "id": 109003,
+            "title": {
+              "romaji": "Code Geass: Boukoku no Akito 3 - Kagayakumono Ten Yori Otsu Picture Drama",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b109003-w2ZwyaD3UuE3.jpg"
+            },
+            "status": "FINISHED",
+            "format": "SPECIAL",
+            "season": "SPRING",
+            "seasonYear": 2015
+          }
+        },
+        {
+          "relationType": "ADAPTATION",
+          "node": {
+            "id": 96683,
+            "title": {
+              "romaji": "Code Geass: Boukoku no Akito",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/96683-FXd7YTocEjnF.jpg"
+            },
+            "status": "FINISHED",
+            "format": "NOVEL",
+            "season": null,
+            "seasonYear": null
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 15201,
+    "idMal": 15201,
+    "title": {
+      "romaji": "Code Geass: Boukoku no Akito 4 - Nikushimi no Kioku Kara",
+      "english": "Code Geass: Akito the Exiled - Memories of Hatred",
+      "native": "コードギアス 亡国のアキト 第4章 憎しみの記憶から"
+    },
+    "description": "While W-0 is away, Leila and the remaining crew at base find themselves surrounded by Britannian Knightmares. Piloting the Vercingetorix, Shin Hyuuga leads the enemy charge, having usurped the position of Grand Master in the Knights of St. Michael. With her core members unavailable, it's up to Leila to protect her comrades, but this may be much tougher than she realizes: a spy lurking among them is finally ready to reveal himself.\n<br><br>\nLeft with no choice but to surrender, Leila arranges a meeting with Shin in order to ensure the safety of her squad. But as negotiations begin to fall apart, Akito and an unexpected ally return in the nick of time to turn things around.\n<br><br>\n(Source: MAL Rewrite)",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/15201-B681oTkvmflE.jpg",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15201-JqRtOF8UH3P5.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx15201-JqRtOF8UH3P5.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx15201-JqRtOF8UH3P5.jpg"
+    },
+    "startDate": {
+      "year": 2015,
+      "month": 7,
+      "day": 4
+    },
+    "endDate": {
+      "year": 2015,
+      "month": 7,
+      "day": 4
+    },
+    "status": "FINISHED",
+    "episodes": 1,
+    "duration": 59,
+    "genres": [
+      "Action",
+      "Mecha",
+      "Sci-Fi"
+    ],
+    "averageScore": 69,
+    "popularity": 22436,
+    "favourites": 113,
+    "studios": {
+      "nodes": [
+        {
+          "name": "Sunrise"
+        }
+      ]
+    },
+    "source": "ORIGINAL",
+    "siteUrl": "https://anilist.co/anime/15201",
+    "format": "MOVIE",
+    "season": "SUMMER",
+    "seasonYear": 2015,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "PREQUEL",
+          "node": {
+            "id": 15199,
+            "title": {
+              "romaji": "Code Geass: Boukoku no Akito 3 - Kagayakumono Ten Yori Otsu",
+              "english": "Code Geass: Akito the Exiled - The Brightness Falls"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx15199-B8vR4NAGWb2s.jpg"
+            },
+            "status": "FINISHED",
+            "format": "MOVIE",
+            "season": "SPRING",
+            "seasonYear": 2015
+          }
+        },
+        {
+          "relationType": "SEQUEL",
+          "node": {
+            "id": 21178,
+            "title": {
+              "romaji": "Code Geass: Boukoku no Akito Saishuushou - Itoshiki Mono-tachi e",
+              "english": "Code Geass: Akito the Exiled - To Beloved Ones"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21178-jmxNhcsEELFt.png"
+            },
+            "status": "FINISHED",
+            "format": "MOVIE",
+            "season": "WINTER",
+            "seasonYear": 2016
+          }
+        },
+        {
+          "relationType": "OTHER",
+          "node": {
+            "id": 109004,
+            "title": {
+              "romaji": "Code Geass: Boukoku no Akito 4 - Nikushimi no Kioku Kara Picture Drama",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b109004-NGx9qAjTVboI.jpg"
+            },
+            "status": "FINISHED",
+            "format": "SPECIAL",
+            "season": "FALL",
+            "seasonYear": 2015
+          }
+        },
+        {
+          "relationType": "ADAPTATION",
+          "node": {
+            "id": 96683,
+            "title": {
+              "romaji": "Code Geass: Boukoku no Akito",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/96683-FXd7YTocEjnF.jpg"
+            },
+            "status": "FINISHED",
+            "format": "NOVEL",
+            "season": null,
+            "seasonYear": null
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 15211,
+    "idMal": 15211,
+    "title": {
+      "romaji": "Nazotoki-hime wa Meitantei♥",
+      "english": null,
+      "native": "ナゾトキ姫は名探偵♥"
+    },
+    "description": "The story centers around Hinami, a bookish, eyeglasses-wearing girl, and her two friends. When there is a mystery to solve, she transforms into the clever Nazotoki-hime (literally, Princess Mystery Time).<br>\n<br>\n(Source: Anime News Network)<br>\n<br>\n<i>Note: The episodes were included in \"Ciao Ciao TV! (ちゃおちゃおTV!)\", a bonus DVD bundled in select issues of the shoujo magazine Ciao.</i>",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15211.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15211.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/15211.jpg"
+    },
+    "startDate": {
+      "year": 2012,
+      "month": 8,
+      "day": 3
+    },
+    "endDate": {
+      "year": 2013,
+      "month": 12,
+      "day": 13
+    },
+    "status": "FINISHED",
+    "episodes": 6,
+    "duration": 14,
+    "genres": [
+      "Mahou Shoujo",
+      "Mystery"
+    ],
+    "averageScore": 47,
+    "popularity": 351,
+    "favourites": 1,
+    "studios": {
+      "nodes": [
+        {
+          "name": "SynergySP"
+        }
+      ]
+    },
+    "source": "MANGA",
+    "siteUrl": "https://anilist.co/anime/15211",
+    "format": "OVA",
+    "season": "SUMMER",
+    "seasonYear": 2012,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "ADAPTATION",
+          "node": {
+            "id": 73369,
+            "title": {
+              "romaji": "Nazotoki-hime wa Meitantei♥",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx73369-vVZISeiPpC9b.png"
+            },
+            "status": "RELEASING",
+            "format": "MANGA",
+            "season": null,
+            "seasonYear": null
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 15219,
+    "idMal": 15219,
+    "title": {
+      "romaji": ".hack//Versus: The Thanatos Report",
+      "english": null,
+      "native": ".hack//Versus タナトスレポート"
+    },
+    "description": "Bundled along with a free game, .hack//Versus, on the .hack//Sekai no Mukou ni Blu-ray disc, is a special called \"The Thanatos Report\". This special connects the events of the game with the events of the movie and \"reveal the last truth\". The protagonist of the special is Dave; a character who also appears in the main movie. The special takes place in both 2024 (the year in which the movie takes place) and 2025 (the year in which the game .hack//Versus takes place). <br><br>\n(Source: AnimeReviews.co) ",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15219.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15219.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/15219.jpg"
+    },
+    "startDate": {
+      "year": 2012,
+      "month": 6,
+      "day": 28
+    },
+    "endDate": {
+      "year": 2012,
+      "month": 6,
+      "day": 28
+    },
+    "status": "FINISHED",
+    "episodes": 1,
+    "duration": 21,
+    "genres": [
+      "Action",
+      "Sci-Fi"
+    ],
+    "averageScore": 57,
+    "popularity": 1663,
+    "favourites": 3,
+    "studios": {
+      "nodes": []
+    },
+    "source": "VIDEO_GAME",
+    "siteUrl": "https://anilist.co/anime/15219",
+    "format": "SPECIAL",
+    "season": "SUMMER",
+    "seasonYear": 2012,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "PARENT",
+          "node": {
+            "id": 11375,
+            "title": {
+              "romaji": ".hack//The Movie: Sekai no Mukou ni",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/11375.jpg"
+            },
+            "status": "FINISHED",
+            "format": "MOVIE",
+            "season": "WINTER",
+            "seasonYear": 2012
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 15225,
+    "idMal": 15225,
+    "title": {
+      "romaji": "Hentai Ouji to Warawanai Neko.",
+      "english": "Hentai Prince & the Stony Cat",
+      "native": "変態王子と笑わない猫。"
+    },
+    "description": "Youto Yokodera is always thinking about his carnal desires, but no one acknowledges him as a pervert. He learns about a cat statue that supposedly grants wishes. The boy goes to pray that he will be able to express his lustful thoughts whenever and wherever he wants. At the statue, Youto encounters Tsukiko Tsutsukakushi, a girl from his high school with her own wish—that she would not display her real intentions so readily.\n<br><br>\n(Source: Anime News Network)",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/15225.jpg",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15225-wQg1w96ABj0p.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx15225-wQg1w96ABj0p.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx15225-wQg1w96ABj0p.jpg"
+    },
+    "startDate": {
+      "year": 2013,
+      "month": 4,
+      "day": 13
+    },
+    "endDate": {
+      "year": 2013,
+      "month": 6,
+      "day": 29
+    },
+    "status": "FINISHED",
+    "episodes": 12,
+    "duration": 24,
+    "genres": [
+      "Comedy",
+      "Romance",
+      "Supernatural"
+    ],
+    "averageScore": 68,
+    "popularity": 89420,
+    "favourites": 785,
+    "studios": {
+      "nodes": [
+        {
+          "name": "J.C.STAFF"
+        }
+      ]
+    },
+    "source": "LIGHT_NOVEL",
+    "siteUrl": "https://anilist.co/anime/15225",
+    "format": "TV",
+    "season": "SPRING",
+    "seasonYear": 2013,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "ADAPTATION",
+          "node": {
+            "id": 55876,
+            "title": {
+              "romaji": "Hentai Ouji to Warawanai Neko.",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/b55876-JYQtDRVUozBB.jpg"
+            },
+            "status": "FINISHED",
+            "format": "NOVEL",
+            "season": null,
+            "seasonYear": null
+          }
+        },
+        {
+          "relationType": "OTHER",
+          "node": {
+            "id": 20608,
+            "title": {
+              "romaji": "Hentai Ouji to Warawanai Neko.: Henneko BBS",
+              "english": "The \"Hentai\" Prince and the Stony Cat.: Henneko BBS"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/20608.jpg"
+            },
+            "status": "FINISHED",
+            "format": "SPECIAL",
+            "season": "WINTER",
+            "seasonYear": 2013
+          }
+        },
+        {
+          "relationType": "ALTERNATIVE",
+          "node": {
+            "id": 55679,
+            "title": {
+              "romaji": "Hentai Ouji to Warawanai Neko.",
+              "english": "The Hentai Prince And The Stony Cat"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/25679.jpg"
+            },
+            "status": "FINISHED",
+            "format": "MANGA",
+            "season": null,
+            "seasonYear": null
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 15227,
+    "idMal": 15227,
+    "title": {
+      "romaji": "Kono Sekai no Katasumi ni",
+      "english": "In This Corner of the World",
+      "native": "この世界の片隅に"
+    },
+    "description": "The story follows a young lady named Suzu Urano, who in 1944 moves to the small town of Kure in Hiroshima to live with her husband's family. Suzu's life is thrown into chaos when her town is bombed during World War II. Her perseverance and courage underpin this heart-warming and inspirational tale of the everyday challenges faced by the Japanese in the midst of a violent, war-torn country. This beautiful yet poignant tale shows that even in the face of adversity and loss, people can come together and rebuild their lives.<br>\n<br>\n(Source: Shout! Factory)",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/15227-yQXL90tfOpRO.jpg",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15227-1tG3lhprG0A9.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx15227-1tG3lhprG0A9.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx15227-1tG3lhprG0A9.jpg"
+    },
+    "startDate": {
+      "year": 2016,
+      "month": 11,
+      "day": 12
+    },
+    "endDate": {
+      "year": 2016,
+      "month": 11,
+      "day": 12
+    },
+    "status": "FINISHED",
+    "episodes": 1,
+    "duration": 130,
+    "genres": [
+      "Drama",
+      "Slice of Life"
+    ],
+    "averageScore": 81,
+    "popularity": 59363,
+    "favourites": 1281,
+    "studios": {
+      "nodes": [
+        {
+          "name": "MAPPA"
+        }
+      ]
+    },
+    "source": "MANGA",
+    "siteUrl": "https://anilist.co/anime/15227",
+    "format": "MOVIE",
+    "season": "FALL",
+    "seasonYear": 2016,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "ADAPTATION",
+          "node": {
+            "id": 41243,
+            "title": {
+              "romaji": "Kono Sekai no Katasumi ni",
+              "english": "In This Corner of the World"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx41243-adYxm7V2tJK7.png"
+            },
+            "status": "FINISHED",
+            "format": "MANGA",
+            "season": null,
+            "seasonYear": null
+          }
+        },
+        {
+          "relationType": "ALTERNATIVE",
+          "node": {
+            "id": 112135,
+            "title": {
+              "romaji": "Kono Sekai no (Sara ni Ikutsumono) Katasumi ni",
+              "english": "In This Corner (and Other Corners) of the World"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx112135-SZwCaYm8WwR0.png"
+            },
+            "status": "FINISHED",
+            "format": "MOVIE",
+            "season": "FALL",
+            "seasonYear": 2019
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 15279,
+    "idMal": 15279,
+    "title": {
+      "romaji": "Kira☆Kira 5th Anniversary Live Anime: KICK START GENERATION",
+      "english": null,
+      "native": "キラ☆キラ 5th Anniversary Live Anime KICK START GENERATION"
+    },
+    "description": "Based on the visual novel by Overdrive. <br><br>\nThe what-if story reunites the Second Literature Club Band members Kirari, Chie, Shikanosuke, and Sarina, several months after the concert in the d2b vs Deardrops ~Cross the Future~ fan disk.\n<br><br>\n(Source: Anime News Network)",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15279.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15279.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/15279.jpg"
+    },
+    "startDate": {
+      "year": 2013,
+      "month": 3,
+      "day": 27
+    },
+    "endDate": {
+      "year": 2013,
+      "month": 3,
+      "day": 27
+    },
+    "status": "FINISHED",
+    "episodes": 1,
+    "duration": 26,
+    "genres": [
+      "Music"
+    ],
+    "averageScore": 57,
+    "popularity": 979,
+    "favourites": 1,
+    "studios": {
+      "nodes": []
+    },
+    "source": "VISUAL_NOVEL",
+    "siteUrl": "https://anilist.co/anime/15279",
+    "format": "OVA",
+    "season": "SPRING",
+    "seasonYear": 2013,
+    "isAdult": false,
+    "relations": {
+      "edges": []
+    }
+  },
+  {
+    "id": 15291,
+    "idMal": 15291,
+    "title": {
+      "romaji": "Hyakujitsu no Bara Specials",
+      "english": "Maiden Rose Specials",
+      "native": "百日の薔薇"
+    },
+    "description": "Specials included in the OVA of Hyakujitsu no Bara.",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15291.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15291.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/15291.jpg"
+    },
+    "startDate": {
+      "year": 2009,
+      "month": 5,
+      "day": 29
+    },
+    "endDate": {
+      "year": 2009,
+      "month": 10,
+      "day": 23
+    },
+    "status": "FINISHED",
+    "episodes": 2,
+    "duration": 5,
+    "genres": [],
+    "averageScore": 57,
+    "popularity": 1521,
+    "favourites": 6,
+    "studios": {
+      "nodes": []
+    },
+    "source": "MANGA",
+    "siteUrl": "https://anilist.co/anime/15291",
+    "format": "SPECIAL",
+    "season": "SPRING",
+    "seasonYear": 2009,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "PARENT",
+          "node": {
+            "id": 5902,
+            "title": {
+              "romaji": "Hyakujitsu no Bara",
+              "english": "Maiden Rose"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/5902.jpg"
+            },
+            "status": "FINISHED",
+            "format": "OVA",
+            "season": "SPRING",
+            "seasonYear": 2009
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 15307,
+    "idMal": 15307,
+    "title": {
+      "romaji": "Smile Precure! Ehon no Naka wa Minna Chiguhagu!",
+      "english": null,
+      "native": "スマイルプリキュア! 絵本の中はみんなチグハグ!"
+    },
+    "description": "The movie transports the Precure into a world inside a picture book, where they are guided by Nico, a mysterious inhabitant of the picture book world.",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/15307-Pf5JIlUwz7aM.jpg",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15307-AAPnXXw5FZqB.png",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx15307-AAPnXXw5FZqB.png",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx15307-AAPnXXw5FZqB.png"
+    },
+    "startDate": {
+      "year": 2012,
+      "month": 10,
+      "day": 27
+    },
+    "endDate": {
+      "year": 2012,
+      "month": 10,
+      "day": 27
+    },
+    "status": "FINISHED",
+    "episodes": 1,
+    "duration": 71,
+    "genres": [
+      "Fantasy",
+      "Mahou Shoujo"
+    ],
+    "averageScore": 72,
+    "popularity": 2658,
+    "favourites": 31,
+    "studios": {
+      "nodes": [
+        {
+          "name": "Toei Animation"
+        }
+      ]
+    },
+    "source": "ORIGINAL",
+    "siteUrl": "https://anilist.co/anime/15307",
+    "format": "MOVIE",
+    "season": "FALL",
+    "seasonYear": 2012,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "PARENT",
+          "node": {
+            "id": 12191,
+            "title": {
+              "romaji": "Smile Precure!",
+              "english": "Glitter Force"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx12191-nWmjNC2appDV.jpg"
+            },
+            "status": "FINISHED",
+            "format": "TV",
+            "season": "WINTER",
+            "seasonYear": 2012
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 15313,
+    "idMal": 15313,
+    "title": {
+      "romaji": "Wooser no Sono Higurashi",
+      "english": "Wooser's Hand-to-Mouth Life",
+      "native": "うーさーのその日暮らし"
+    },
+    "description": "3D shorts centered around Wooser, a mysterious mascot character whose charming appearance belies a corrupt heart.\n<br><br>\n(Source: Anime News Network)",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15313.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15313.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/15313.jpg"
+    },
+    "startDate": {
+      "year": 2012,
+      "month": 10,
+      "day": 3
+    },
+    "endDate": {
+      "year": 2012,
+      "month": 12,
+      "day": 19
+    },
+    "status": "FINISHED",
+    "episodes": 12,
+    "duration": 4,
+    "genres": [
+      "Comedy",
+      "Fantasy"
+    ],
+    "averageScore": 57,
+    "popularity": 3538,
+    "favourites": 9,
+    "studios": {
+      "nodes": [
+        {
+          "name": "SANZIGEN"
+        }
+      ]
+    },
+    "source": "MANGA",
+    "siteUrl": "https://anilist.co/anime/15313",
+    "format": "TV_SHORT",
+    "season": "FALL",
+    "seasonYear": 2012,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "SEQUEL",
+          "node": {
+            "id": 16738,
+            "title": {
+              "romaji": "Wooser no Sono Higurashi: Ken to Pantsu to Wooser to",
+              "english": "Wooser's Hand-to-Mouth Life Special"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/16738.jpg"
+            },
+            "status": "FINISHED",
+            "format": "SPECIAL",
+            "season": "SPRING",
+            "seasonYear": 2013
+          }
+        },
+        {
+          "relationType": "CHARACTER",
+          "node": {
+            "id": 115069,
+            "title": {
+              "romaji": "D4DJ First Mix",
+              "english": "D4DJ First Mix"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx115069-hKrmZDt2oZ8Q.jpg"
+            },
+            "status": "FINISHED",
+            "format": "TV",
+            "season": "FALL",
+            "seasonYear": 2020
+          }
+        },
+        {
+          "relationType": "CHARACTER",
+          "node": {
+            "id": 21637,
+            "title": {
+              "romaji": "Uchuu Patrol Luluco",
+              "english": "Space Patrol Luluco"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21637-6SulVMOqv77m.jpg"
+            },
+            "status": "FINISHED",
+            "format": "TV_SHORT",
+            "season": "SPRING",
+            "seasonYear": 2016
+          }
+        },
+        {
+          "relationType": "CHARACTER",
+          "node": {
+            "id": 7768,
+            "title": {
+              "romaji": "Tantei Opera Milky Holmes",
+              "english": "Detective Opera Milky Holmes"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/7768.jpg"
+            },
+            "status": "FINISHED",
+            "format": "TV",
+            "season": "FALL",
+            "seasonYear": 2010
+          }
+        },
+        {
+          "relationType": "CHARACTER",
+          "node": {
+            "id": 20033,
+            "title": {
+              "romaji": "Miss Monochrome - The Animation",
+              "english": "Miss Monochrome - The Animation"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20033-rJv0C1BASZMJ.jpg"
+            },
+            "status": "FINISHED",
+            "format": "TV_SHORT",
+            "season": "FALL",
+            "seasonYear": 2013
+          }
+        },
+        {
+          "relationType": "CHARACTER",
+          "node": {
+            "id": 99424,
+            "title": {
+              "romaji": "SSSS.GRIDMAN",
+              "english": "SSSS.GRIDMAN"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx99424-9bV9lbUhynar.jpg"
+            },
+            "status": "FINISHED",
+            "format": "TV",
+            "season": "FALL",
+            "seasonYear": 2018
+          }
+        },
+        {
+          "relationType": "CHARACTER",
+          "node": {
+            "id": 21200,
+            "title": {
+              "romaji": "Kaijuu Sakaba Kanpai!",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/21200-52PPcOrrcNKk.jpg"
+            },
+            "status": "FINISHED",
+            "format": "TV_SHORT",
+            "season": "SUMMER",
+            "seasonYear": 2015
+          }
+        },
+        {
+          "relationType": "CHARACTER",
+          "node": {
+            "id": 20798,
+            "title": {
+              "romaji": "Robot Girls Z Specials",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/20798.jpg"
+            },
+            "status": "FINISHED",
+            "format": "SPECIAL",
+            "season": "SUMMER",
+            "seasonYear": 2014
+          }
+        },
+        {
+          "relationType": "CHARACTER",
+          "node": {
+            "id": 20747,
+            "title": {
+              "romaji": "Miss Monochrome - The Animation: Soccer-hen",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/20747.jpg"
+            },
+            "status": "FINISHED",
+            "format": "ONA",
+            "season": "SPRING",
+            "seasonYear": 2014
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 15315,
+    "idMal": 15315,
+    "title": {
+      "romaji": "Mondaiji-tachi ga Isekai kara Kuru Sou desu yo?",
+      "english": "Problem Children Are Coming From Another World, Aren't They?",
+      "native": "問題児たちが異世界から来るそうですよ?"
+    },
+    "description": "Izayoi Sakamaki, Asuka Kudou, and You Kasugabe have tremendous psychic powers and are bored with the regular world. An envelope arrives for each person, and when each opens their envelope, they are stunned to see the scenery around them change to a world they had never encountered before. They've been summoned by the Black Rabbit to help the community \"No Name\" to overthrow the Devil King.<br><br>\r\n(Source: Crunchyroll)",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/15315.jpg",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15315-mvKPcy8Z2QkB.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx15315-mvKPcy8Z2QkB.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx15315-mvKPcy8Z2QkB.jpg"
+    },
+    "startDate": {
+      "year": 2013,
+      "month": 1,
+      "day": 12
+    },
+    "endDate": {
+      "year": 2013,
+      "month": 3,
+      "day": 16
+    },
+    "status": "FINISHED",
+    "episodes": 10,
+    "duration": 23,
+    "genres": [
+      "Action",
+      "Comedy",
+      "Fantasy",
+      "Supernatural"
+    ],
+    "averageScore": 70,
+    "popularity": 113135,
+    "favourites": 1419,
+    "studios": {
+      "nodes": [
+        {
+          "name": "diomedéa"
+        }
+      ]
+    },
+    "source": "LIGHT_NOVEL",
+    "siteUrl": "https://anilist.co/anime/15315",
+    "format": "TV",
+    "season": "WINTER",
+    "seasonYear": 2013,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "ADAPTATION",
+          "node": {
+            "id": 75855,
+            "title": {
+              "romaji": "Mondaiji-tachi ga Isekai kara Kuru Sou Desu yo?",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx75855-FmdPqvUF7EF1.jpg"
+            },
+            "status": "FINISHED",
+            "format": "NOVEL",
+            "season": null,
+            "seasonYear": null
+          }
+        },
+        {
+          "relationType": "SIDE_STORY",
+          "node": {
+            "id": 16444,
+            "title": {
+              "romaji": "Mondaiji-tachi ga Isekai kara Kuru Sou desu yo?: Onsen Manyuuki",
+              "english": "Problem Children Are Coming From Another World, Aren't They? OVA"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx16444-lreIjv4Urghh.png"
+            },
+            "status": "FINISHED",
+            "format": "OVA",
+            "season": "SUMMER",
+            "seasonYear": 2013
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 15323,
+    "idMal": 15323,
+    "title": {
+      "romaji": "ONE PIECE: Episode of Nami - Koukaishi no Namida to Nakama no Kizuna",
+      "english": null,
+      "native": "ONE PIECE エピソードオブナミ 〜航海士の涙と仲間の絆〜"
+    },
+    "description": "A retelling of the Arlong Park arc, with new animation.",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/15323-zrax5OGlGepE.png",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15323.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15323.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/15323.jpg"
+    },
+    "startDate": {
+      "year": 2012,
+      "month": 8,
+      "day": 25
+    },
+    "endDate": {
+      "year": 2012,
+      "month": 8,
+      "day": 25
+    },
+    "status": "FINISHED",
+    "episodes": 1,
+    "duration": 105,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Drama",
+      "Fantasy"
+    ],
+    "averageScore": 78,
+    "popularity": 16263,
+    "favourites": 155,
+    "studios": {
+      "nodes": []
+    },
+    "source": "MANGA",
+    "siteUrl": "https://anilist.co/anime/15323",
+    "format": "SPECIAL",
+    "season": "SUMMER",
+    "seasonYear": 2012,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "ADAPTATION",
+          "node": {
+            "id": 30013,
+            "title": {
+              "romaji": "ONE PIECE",
+              "english": "One Piece"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx30013-BeslEMqiPhlk.jpg"
+            },
+            "status": "RELEASING",
+            "format": "MANGA",
+            "season": null,
+            "seasonYear": null
+          }
+        },
+        {
+          "relationType": "PARENT",
+          "node": {
+            "id": 21,
+            "title": {
+              "romaji": "ONE PIECE",
+              "english": "ONE PIECE"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21-ELSYx3yMPcKM.jpg"
+            },
+            "status": "RELEASING",
+            "format": "TV",
+            "season": "FALL",
+            "seasonYear": 1999
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 15335,
+    "idMal": 15335,
+    "title": {
+      "romaji": "Gintama: Kanketsu-hen - Yorozuya yo Eien Nare",
+      "english": "Gintama: The Final Chapter - Be Forever Yorozuya",
+      "native": "劇場版 銀魂 完結篇 万事屋よ永遠なれ"
+    },
+    "description": "When Gintoki apprehends a movie pirate at a premiere, he checks the camera's footage and finds himself transported to a bleak, post-apocalyptic version of Edo, where a mysterious epidemic called the \"White Plague\" has ravished the world's population. It turns out that the movie pirate wasn't a pirate after all—it was an android time machine, and Gintoki has been hurtled five years into the future! Shinpachi and Kagura, his Yorozuya cohorts, have had a falling out and are now battle-hardened solo vigilantes and he himself has been missing for years, disappearing without a trace after scribbling a strange message in his journal.\n\nSetting out in the disguise given to him by the android time machine, Gintoki haphazardly reunites the Yorozuya team to investigate the White Plague, and soon discovers that the key to saving the future lies in the darkness of his own past. Determined to confront a powerful foe, he makes an important discovery—with a ragtag band of friends and allies at his side, he doesn't have to fight alone.\n<br><br>\n(Source: MAL Rewrite)",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/15335-uARkRgyx8adp.jpg",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15335-QjijwChGTBs0.png",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx15335-QjijwChGTBs0.png",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx15335-QjijwChGTBs0.png"
+    },
+    "startDate": {
+      "year": 2013,
+      "month": 7,
+      "day": 6
+    },
+    "endDate": {
+      "year": 2013,
+      "month": 7,
+      "day": 6
+    },
+    "status": "FINISHED",
+    "episodes": 1,
+    "duration": 110,
+    "genres": [
+      "Action",
+      "Comedy",
+      "Sci-Fi"
+    ],
+    "averageScore": 87,
+    "popularity": 51527,
+    "favourites": 1145,
+    "studios": {
+      "nodes": [
+        {
+          "name": "Sunrise"
+        }
+      ]
+    },
+    "source": "MANGA",
+    "siteUrl": "https://anilist.co/anime/15335",
+    "format": "MOVIE",
+    "season": "SUMMER",
+    "seasonYear": 2013,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "PARENT",
+          "node": {
+            "id": 918,
+            "title": {
+              "romaji": "Gintama",
+              "english": "Gintama"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx918-iOaeBVUn4uK7.jpg"
+            },
+            "status": "FINISHED",
+            "format": "TV",
+            "season": "SPRING",
+            "seasonYear": 2006
+          }
+        },
+        {
+          "relationType": "SEQUEL",
+          "node": {
+            "id": 20996,
+            "title": {
+              "romaji": "Gintama°",
+              "english": "Gintama Season 3"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20996-kBEGEGdeK1r7.jpg"
+            },
+            "status": "FINISHED",
+            "format": "TV",
+            "season": "SPRING",
+            "seasonYear": 2015
+          }
+        },
+        {
+          "relationType": "PREQUEL",
+          "node": {
+            "id": 15417,
+            "title": {
+              "romaji": "Gintama': Enchousen",
+              "english": "Gintama Season 2 Part 2"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx15417-Uc2uNdWEixwi.jpg"
+            },
+            "status": "FINISHED",
+            "format": "TV",
+            "season": "FALL",
+            "seasonYear": 2012
+          }
+        },
+        {
+          "relationType": "ADAPTATION",
+          "node": {
+            "id": 95458,
+            "title": {
+              "romaji": "Gekijouban Gintama: Kanketsu-hen - Yorozuya yo Eien Nare",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx95458-7QVshlwNBWMT.jpg"
+            },
+            "status": "FINISHED",
+            "format": "NOVEL",
+            "season": null,
+            "seasonYear": null
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 15347,
+    "idMal": 15347,
+    "title": {
+      "romaji": "Meitantei Holmes: Aoi Ruby no Maki / Kaitei no Zaihou no Maki",
+      "english": "Sherlock Hound: The Adventure of the Blue Carbuncle / Treasure Under the Sea",
+      "native": "名探偵ホームズ 青い紅玉の巻/海底の財宝の巻"
+    },
+    "description": "The famous blue ruby is stolen in such an elaborate way, that only one villain can be suspected - Professor Moriarty. It is up to Sherlock Holmes to return it and, in the process, to turn a young pick-pocket on the right path. In the second part, Moriarty sets his sights even higher, stealing a top-secret submarine from the Navy. What does he need it for? Holmes is once again on the trail.<br><br>\n(Source: BakaBT)",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/15347-GGc0nclRQjng.jpg",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15347.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15347.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/15347.jpg"
+    },
+    "startDate": {
+      "year": 1984,
+      "month": 3,
+      "day": 11
+    },
+    "endDate": {
+      "year": 1984,
+      "month": 3,
+      "day": 11
+    },
+    "status": "FINISHED",
+    "episodes": 1,
+    "duration": 46,
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Mystery"
+    ],
+    "averageScore": 58,
+    "popularity": 848,
+    "favourites": 4,
+    "studios": {
+      "nodes": []
+    },
+    "source": "OTHER",
+    "siteUrl": "https://anilist.co/anime/15347",
+    "format": "MOVIE",
+    "season": "SPRING",
+    "seasonYear": 1984,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "ALTERNATIVE",
+          "node": {
+            "id": 1972,
+            "title": {
+              "romaji": "Meitantei Holmes",
+              "english": "Sherlock Hound"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b1972-r2VNEnzoA7P7.jpg"
+            },
+            "status": "FINISHED",
+            "format": "TV",
+            "season": "FALL",
+            "seasonYear": 1984
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 15359,
+    "idMal": 15359,
+    "title": {
+      "romaji": "Kyousougiga (2012)",
+      "english": null,
+      "native": "京騒戯画 (2012)"
+    },
+    "description": "Three kids are stuck in a strange city causing massive mayhem through the land. They are searching for an atypical rabbit in order to return home. Koto, the eldest of the three, seems to have some sort of connection to this weird place ruled by a monk, a demon, and a priest.",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15359.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15359.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/15359.jpg"
+    },
+    "startDate": {
+      "year": 2012,
+      "month": 8,
+      "day": 31
+    },
+    "endDate": {
+      "year": 2012,
+      "month": 12,
+      "day": 22
+    },
+    "status": "FINISHED",
+    "episodes": 5,
+    "duration": 9,
+    "genres": [
+      "Action",
+      "Fantasy",
+      "Supernatural"
+    ],
+    "averageScore": 69,
+    "popularity": 8785,
+    "favourites": 36,
+    "studios": {
+      "nodes": [
+        {
+          "name": "Toei Animation"
+        }
+      ]
+    },
+    "source": "ORIGINAL",
+    "siteUrl": "https://anilist.co/anime/15359",
+    "format": "ONA",
+    "season": "SUMMER",
+    "seasonYear": 2012,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "PREQUEL",
+          "node": {
+            "id": 10893,
+            "title": {
+              "romaji": "Kyousougiga",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx10893-B511LX2N4aYm.jpg"
+            },
+            "status": "FINISHED",
+            "format": "ONA",
+            "season": "WINTER",
+            "seasonYear": 2011
+          }
+        },
+        {
+          "relationType": "ADAPTATION",
+          "node": {
+            "id": 66619,
+            "title": {
+              "romaji": "Kyousou Giga",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx66619-r1c5wnjSe9O7.jpg"
+            },
+            "status": "FINISHED",
+            "format": "MANGA",
+            "season": null,
+            "seasonYear": null
+          }
+        },
+        {
+          "relationType": "OTHER",
+          "node": {
+            "id": 19703,
+            "title": {
+              "romaji": "Kyousougiga (TV)",
+              "english": "Kyousougiga"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx19703-OpohqKDqXIp9.png"
+            },
+            "status": "FINISHED",
+            "format": "TV",
+            "season": "FALL",
+            "seasonYear": 2013
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 15377,
+    "idMal": 15377,
+    "title": {
+      "romaji": "Hyakka Ryouran: Samurai Bride",
+      "english": "Samurai Bride",
+      "native": "百花繚乱 サムライブライド"
+    },
+    "description": "Second season of Hyakka Ryoran: Samurai Girls. ",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15377-PHthXBKOeheF.png",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx15377-PHthXBKOeheF.png",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx15377-PHthXBKOeheF.png"
+    },
+    "startDate": {
+      "year": 2013,
+      "month": 4,
+      "day": 5
+    },
+    "endDate": {
+      "year": 2013,
+      "month": 6,
+      "day": 21
+    },
+    "status": "FINISHED",
+    "episodes": 12,
+    "duration": 24,
+    "genres": [
+      "Action",
+      "Comedy",
+      "Ecchi",
+      "Romance"
+    ],
+    "averageScore": 63,
+    "popularity": 18878,
+    "favourites": 151,
+    "studios": {
+      "nodes": []
+    },
+    "source": "LIGHT_NOVEL",
+    "siteUrl": "https://anilist.co/anime/15377",
+    "format": "TV",
+    "season": "SPRING",
+    "seasonYear": 2013,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "PREQUEL",
+          "node": {
+            "id": 8277,
+            "title": {
+              "romaji": "Hyakka Ryouran: Samurai Girls",
+              "english": "Samurai Girls"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/8277.jpg"
+            },
+            "status": "FINISHED",
+            "format": "TV",
+            "season": "FALL",
+            "seasonYear": 2010
+          }
+        },
+        {
+          "relationType": "ADAPTATION",
+          "node": {
+            "id": 56787,
+            "title": {
+              "romaji": "Hyakka Ryouran: Samurai Girls",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/26787.jpg"
+            },
+            "status": "RELEASING",
+            "format": "NOVEL",
+            "season": null,
+            "seasonYear": null
+          }
+        },
+        {
+          "relationType": "SIDE_STORY",
+          "node": {
+            "id": 19255,
+            "title": {
+              "romaji": "Hyakka Ryouran: Samurai Bride Specials",
+              "english": "Samurai Bride Specials"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/19255.jpg"
+            },
+            "status": "FINISHED",
+            "format": "SPECIAL",
+            "season": "SUMMER",
+            "seasonYear": 2013
+          }
+        },
+        {
+          "relationType": "SEQUEL",
+          "node": {
+            "id": 20823,
+            "title": {
+              "romaji": "Hyakka Ryouran: Samurai After",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/20823.jpg"
+            },
+            "status": "FINISHED",
+            "format": "OVA",
+            "season": "WINTER",
+            "seasonYear": 2015
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 15379,
+    "idMal": 15379,
+    "title": {
+      "romaji": "Kotoura-san",
+      "english": "The Troubled Life of Miss Kotoura",
+      "native": "琴浦さん"
+    },
+    "description": "A school love comedy. Kotoura Haruka is a 15-year-old girl who can read people's minds. She has been suffering from troubles caused by her mind-reading ability, and her parents got divorced as a result. She moves to a new high school but tries to keep away from her classmates. Manabe Yoshihisa, one of her classmates, accepts and appreciates her ability and she begins to interact with her friends with his help.\n",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/15379.jpg",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15379-tSZbUJQzAvRi.png",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx15379-tSZbUJQzAvRi.png",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx15379-tSZbUJQzAvRi.png"
+    },
+    "startDate": {
+      "year": 2013,
+      "month": 1,
+      "day": 11
+    },
+    "endDate": {
+      "year": 2013,
+      "month": 3,
+      "day": 29
+    },
+    "status": "FINISHED",
+    "episodes": 12,
+    "duration": 23,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "averageScore": 68,
+    "popularity": 72248,
+    "favourites": 726,
+    "studios": {
+      "nodes": [
+        {
+          "name": "AIC"
+        }
+      ]
+    },
+    "source": "MANGA",
+    "siteUrl": "https://anilist.co/anime/15379",
+    "format": "TV",
+    "season": "WINTER",
+    "seasonYear": 2013,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "ADAPTATION",
+          "node": {
+            "id": 73443,
+            "title": {
+              "romaji": "Kotoura-san",
+              "english": "Kotoura-san"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/43443.jpg"
+            },
+            "status": "FINISHED",
+            "format": "MANGA",
+            "season": null,
+            "seasonYear": null
+          }
+        },
+        {
+          "relationType": "SIDE_STORY",
+          "node": {
+            "id": 16636,
+            "title": {
+              "romaji": "Kotoura-san: Haruka no Heya",
+              "english": "The Troubled Life of Miss Kotoura: Haruka no Heya"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/16636.jpg"
+            },
+            "status": "FINISHED",
+            "format": "ONA",
+            "season": "FALL",
+            "seasonYear": 2012
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 15389,
+    "idMal": 15389,
+    "title": {
+      "romaji": "Kremlin",
+      "english": null,
+      "native": "クレムリン"
+    },
+    "description": "A gag, flash animation comedy that centers around a purported college student named Haruo \"Cat\" Kyattsuyama who only went to his school, the low-tier Kunekune College, once. One day, he sees a cute Russian Blue cat named Kan-u abandoned in a cardboard box on the roadside somewhere in Japan. Kyattsuyama pretends not to see the cat, and continues to do so for an entire year. Surprisingly, no one has shown up to try to save the cat, so Kyattsuyama finally decides to pick the cat up — however, by then, there are now three Russian Blue cats instead of just one. Kyattsuyama asked the cats for their names, and they all said \"Kan-u.\" <br><br>\r\nThe anime shorts are inspired by Kaoru Curry-zawa's \"Kremlin\" cat gag comedy manga.\n<br><br>\n(Source: Anime News Network)",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15389.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15389.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/15389.jpg"
+    },
+    "startDate": {
+      "year": 2012,
+      "month": 9,
+      "day": 14
+    },
+    "endDate": {
+      "year": 2013,
+      "month": 2,
+      "day": 22
+    },
+    "status": "FINISHED",
+    "episodes": 5,
+    "duration": 2,
+    "genres": [
+      "Comedy"
+    ],
+    "averageScore": 47,
+    "popularity": 610,
+    "favourites": 0,
+    "studios": {
+      "nodes": []
+    },
+    "source": "MANGA",
+    "siteUrl": "https://anilist.co/anime/15389",
+    "format": "ONA",
+    "season": "FALL",
+    "seasonYear": 2012,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "ADAPTATION",
+          "node": {
+            "id": 72075,
+            "title": {
+              "romaji": "Kremlin",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/42075.jpg"
+            },
+            "status": "FINISHED",
+            "format": "MANGA",
+            "season": null,
+            "seasonYear": null
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 15391,
+    "idMal": 15391,
+    "title": {
+      "romaji": "Kagaku na Yatsura",
+      "english": null,
+      "native": "カガクなヤツら"
+    },
+    "description": "A \"science trouble\" romantic comedy OVA bundled with the manga's fourth volume. It follows a high school boy named Komaba Haruki and his two girl friends: the cyborg girl Airi, and the half-dog girl Ayana. The two go to extremes with the power of science, which only gets Haruki involved in ecchi troubles. <br><br>\n(Source: ANN, MAL news) ",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx15391-zPs6buo9bIlW.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx15391-zPs6buo9bIlW.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx15391-zPs6buo9bIlW.jpg"
+    },
+    "startDate": {
+      "year": 2013,
+      "month": 2,
+      "day": 20
+    },
+    "endDate": {
+      "year": 2013,
+      "month": 2,
+      "day": 20
+    },
+    "status": "FINISHED",
+    "episodes": 1,
+    "duration": 26,
+    "genres": [
+      "Comedy",
+      "Ecchi",
+      "Romance",
+      "Sci-Fi"
+    ],
+    "averageScore": 50,
+    "popularity": 6402,
+    "favourites": 74,
+    "studios": {
+      "nodes": []
+    },
+    "source": "MANGA",
+    "siteUrl": "https://anilist.co/anime/15391",
+    "format": "OVA",
+    "season": "WINTER",
+    "seasonYear": 2013,
+    "isAdult": true,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "ADAPTATION",
+          "node": {
+            "id": 64471,
+            "title": {
+              "romaji": "Kagaku na Yatsura",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/nx64471-ptQuHvIWzlFn.png"
+            },
+            "status": "FINISHED",
+            "format": "MANGA",
+            "season": null,
+            "seasonYear": null
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 15393,
+    "idMal": 15393,
+    "title": {
+      "romaji": "Sakura no Ondo",
+      "english": null,
+      "native": "桜の温度"
+    },
+    "description": "An original animated short film by Ufotable. The film takes place in Sanuki, the birthplace of the film's director Takayuki Hirao.<br>\n<br>\n<i>Note: The film doesn't have a home release, and is only viewable at an Ufotable Cinema in Tokushima.</i>",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15393.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15393.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/15393.jpg"
+    },
+    "startDate": {
+      "year": 2011,
+      "month": 10,
+      "day": 29
+    },
+    "endDate": {
+      "year": 2011,
+      "month": 10,
+      "day": 29
+    },
+    "status": "FINISHED",
+    "episodes": 1,
+    "duration": 21,
+    "genres": [
+      "Drama"
+    ],
+    "averageScore": null,
+    "popularity": 992,
+    "favourites": 1,
+    "studios": {
+      "nodes": [
+        {
+          "name": "ufotable"
+        }
+      ]
+    },
+    "source": "ORIGINAL",
+    "siteUrl": "https://anilist.co/anime/15393",
+    "format": "MOVIE",
+    "season": "FALL",
+    "seasonYear": 2011,
+    "isAdult": false,
+    "relations": {
+      "edges": []
+    }
+  },
+  {
+    "id": 15399,
+    "idMal": 15399,
+    "title": {
+      "romaji": "The Siamese: First Mission",
+      "english": null,
+      "native": "シャム猫 / ファーストミッション"
+    },
+    "description": "June and Naomi are a pair of two attractive women who both work as radio station DJs by day, but when night falls they are elite counter-terrorism agents under the code name The Siamese Cats.\n<br><br>\n(Source: Anime News Network)",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15399-u3gzuahtYxub.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx15399-u3gzuahtYxub.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx15399-u3gzuahtYxub.jpg"
+    },
+    "startDate": {
+      "year": 2001,
+      "month": 10,
+      "day": 6
+    },
+    "endDate": {
+      "year": 2001,
+      "month": 10,
+      "day": 6
+    },
+    "status": "FINISHED",
+    "episodes": 1,
+    "duration": 90,
+    "genres": [
+      "Action"
+    ],
+    "averageScore": 51,
+    "popularity": 494,
+    "favourites": 5,
+    "studios": {
+      "nodes": [
+        {
+          "name": "Buyuu"
+        }
+      ]
+    },
+    "source": null,
+    "siteUrl": "https://anilist.co/anime/15399",
+    "format": "MOVIE",
+    "season": "FALL",
+    "seasonYear": 2001,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "CHARACTER",
+          "node": {
+            "id": 19479,
+            "title": {
+              "romaji": "Monkey Punch Manga Katsudou Dai Shashin: Crime Mate Special",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx19479-T91WIOnvySY8.png"
+            },
+            "status": "FINISHED",
+            "format": "SPECIAL",
+            "season": "FALL",
+            "seasonYear": 2005
+          }
+        },
+        {
+          "relationType": "SIDE_STORY",
+          "node": {
+            "id": 170055,
+            "title": {
+              "romaji": "Color Girl",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx170055-4YSSbEmmtDUT.jpg"
+            },
+            "status": "FINISHED",
+            "format": "MANGA",
+            "season": null,
+            "seasonYear": null
+          }
+        },
+        {
+          "relationType": "CHARACTER",
+          "node": {
+            "id": 172336,
+            "title": {
+              "romaji": "Crime Mate",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx172336-XRRJ7ass2CLf.jpg"
+            },
+            "status": "FINISHED",
+            "format": "ONE_SHOT",
+            "season": null,
+            "seasonYear": null
+          }
+        },
+        {
+          "relationType": "CHARACTER",
+          "node": {
+            "id": 183597,
+            "title": {
+              "romaji": "Siam Neko",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx183597-dxsPmvFFJfLJ.png"
+            },
+            "status": "FINISHED",
+            "format": "MANGA",
+            "season": null,
+            "seasonYear": null
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 15407,
+    "idMal": 15407,
+    "title": {
+      "romaji": "Magical Suite Prism Nana",
+      "english": null,
+      "native": "まじかるすいーとプリズム・ナナ"
+    },
+    "description": "In a future not too distant from ours, Nanagoo City is a beautiful city in Japan surrounded by mountains and ocean-sides. The sensitive, adolescent girls who live there are each opening up doors to their own, unique possibilities. No one wants to forget the path they take to adulthood.\n<br><br>\n(Source: Anime News Network)<br><br>\n<i>Note: While 30-sec pilot previews for all 7 episodes have been uploaded to YouTube, only the first 2 episodes have been screened through live events in 2015 and 2016 respectively. The 2nd episode had also been uploaded to YouTube for a limited-time to promote an upcoming Prism Nana stageplay. It is unknown if the third episode was released at all, and no information regarding the remaining four episodes exists.<br><br>(Source: Lost Media Wiki)</i>",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15407.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15407.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/15407.jpg"
+    },
+    "startDate": {
+      "year": 2015,
+      "month": 11,
+      "day": 29
+    },
+    "endDate": {
+      "year": 2016,
+      "month": 4,
+      "day": 16
+    },
+    "status": "FINISHED",
+    "episodes": 2,
+    "duration": 30,
+    "genres": [
+      "Action",
+      "Fantasy",
+      "Mahou Shoujo"
+    ],
+    "averageScore": 51,
+    "popularity": 3132,
+    "favourites": 5,
+    "studios": {
+      "nodes": [
+        {
+          "name": "Shaft"
+        }
+      ]
+    },
+    "source": "ORIGINAL",
+    "siteUrl": "https://anilist.co/anime/15407",
+    "format": "OVA",
+    "season": "FALL",
+    "seasonYear": 2015,
+    "isAdult": false,
+    "relations": {
+      "edges": []
+    }
+  },
+  {
+    "id": 15409,
+    "idMal": 15409,
+    "title": {
+      "romaji": "Oyakodon♥Oppai Tokumori Bonyuu Tsuyudaku de",
+      "english": null,
+      "native": "母娘丼♥おっぱい特盛母乳汁だくで"
+    },
+    "description": "Special Limited Edition OVA produced by the manga publisher Toranoana. <br><br>\n(Source: AniDB) ",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15409.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15409.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/15409.jpg"
+    },
+    "startDate": {
+      "year": 2012,
+      "month": 8,
+      "day": 10
+    },
+    "endDate": {
+      "year": 2012,
+      "month": 8,
+      "day": 10
+    },
+    "status": "FINISHED",
+    "episodes": 1,
+    "duration": 30,
+    "genres": [
+      "Hentai"
+    ],
+    "averageScore": 60,
+    "popularity": 2303,
+    "favourites": 82,
+    "studios": {
+      "nodes": []
+    },
+    "source": "ORIGINAL",
+    "siteUrl": "https://anilist.co/anime/15409",
+    "format": "OVA",
+    "season": "SUMMER",
+    "seasonYear": 2012,
+    "isAdult": true,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "CHARACTER",
+          "node": {
+            "id": 150531,
+            "title": {
+              "romaji": "Oyakodon♥Oppai Tokumori Bonyuu Tsuyudaku de Comic Anthology",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/b150531-LOGptdnRVem8.png"
+            },
+            "status": "FINISHED",
+            "format": "MANGA",
+            "season": null,
+            "seasonYear": null
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 15411,
+    "idMal": 15411,
+    "title": {
+      "romaji": "Arcana Famiglia: Capriccio - stile Arcana Famiglia",
+      "english": null,
+      "native": "アルカナ・ファミリア Capriccio – stile Arcana Famiglia 奇想曲～アルカナ・ファミリア風"
+    },
+    "description": "An unaired episode of Arcana Famiglia. ",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15411.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15411.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/15411.jpg"
+    },
+    "startDate": {
+      "year": 2013,
+      "month": 3,
+      "day": 27
+    },
+    "endDate": {
+      "year": 2013,
+      "month": 3,
+      "day": 27
+    },
+    "status": "FINISHED",
+    "episodes": 1,
+    "duration": 23,
+    "genres": [
+      "Romance"
+    ],
+    "averageScore": 62,
+    "popularity": 4996,
+    "favourites": 40,
+    "studios": {
+      "nodes": []
+    },
+    "source": "VISUAL_NOVEL",
+    "siteUrl": "https://anilist.co/anime/15411",
+    "format": "OVA",
+    "season": "SPRING",
+    "seasonYear": 2013,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "PARENT",
+          "node": {
+            "id": 12967,
+            "title": {
+              "romaji": "Arcana Famiglia: La storia della Arcana Famiglia",
+              "english": "La Storia Della Arcana Famiglia"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx12967-mO3zrHfsSocQ.jpg"
+            },
+            "status": "FINISHED",
+            "format": "TV",
+            "season": "SUMMER",
+            "seasonYear": 2012
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 15417,
+    "idMal": 15417,
+    "title": {
+      "romaji": "Gintama': Enchousen",
+      "english": "Gintama Season 2 Part 2",
+      "native": "銀魂’延長戦"
+    },
+    "description": "While Gintoki Sakata was away, the Yorozuya found themselves a new leader: Kintoki, Gintoki's golden-haired doppelganger. In order to regain his former position, Gintoki will need the help of those around him, a troubling feat when no one can remember him! Between Kintoki and Gintoki, who will claim the throne as the main character?\n<br><br>\nIn addition, Yorozuya make a trip back down to red-light district of Yoshiwara to aid an elderly courtesan in her search for her long-lost lover. Although the district is no longer in chains beneath the earth's surface, the trio soon learn of the tragic backstories of Yoshiwara's inhabitants that still haunt them. With flashback after flashback, this quest has Yorozuya witnessing everlasting love and protecting it as best they can with their hearts and souls.\n<br><br>\n<i>Gintama'</i>: Enchousen includes moments of action-packed intensity along with their usual lighthearted, slapstick humor for Gintoki and his friends.\n<br><br>\n(Source: MAL Rewrite)",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/15417-0T9JCwFZM99Q.jpg",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15417-Uc2uNdWEixwi.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx15417-Uc2uNdWEixwi.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx15417-Uc2uNdWEixwi.jpg"
+    },
+    "startDate": {
+      "year": 2012,
+      "month": 10,
+      "day": 4
+    },
+    "endDate": {
+      "year": 2013,
+      "month": 3,
+      "day": 28
+    },
+    "status": "FINISHED",
+    "episodes": 13,
+    "duration": 24,
+    "genres": [
+      "Action",
+      "Comedy",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "averageScore": 89,
+    "popularity": 78321,
+    "favourites": 1883,
+    "studios": {
+      "nodes": [
+        {
+          "name": "Sunrise"
+        }
+      ]
+    },
+    "source": "MANGA",
+    "siteUrl": "https://anilist.co/anime/15417",
+    "format": "TV",
+    "season": "FALL",
+    "seasonYear": 2012,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "PREQUEL",
+          "node": {
+            "id": 9969,
+            "title": {
+              "romaji": "Gintama'",
+              "english": "Gintama Season 2"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx9969-0GaRABYVdUcH.png"
+            },
+            "status": "FINISHED",
+            "format": "TV",
+            "season": "SPRING",
+            "seasonYear": 2011
+          }
+        },
+        {
+          "relationType": "SEQUEL",
+          "node": {
+            "id": 20996,
+            "title": {
+              "romaji": "Gintama°",
+              "english": "Gintama Season 3"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20996-kBEGEGdeK1r7.jpg"
+            },
+            "status": "FINISHED",
+            "format": "TV",
+            "season": "SPRING",
+            "seasonYear": 2015
+          }
+        },
+        {
+          "relationType": "ADAPTATION",
+          "node": {
+            "id": 30044,
+            "title": {
+              "romaji": "Gintama",
+              "english": "Gin Tama"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx30044-vPmoz3vTPvZs.jpg"
+            },
+            "status": "FINISHED",
+            "format": "MANGA",
+            "season": null,
+            "seasonYear": null
+          }
+        },
+        {
+          "relationType": "SEQUEL",
+          "node": {
+            "id": 15335,
+            "title": {
+              "romaji": "Gintama: Kanketsu-hen - Yorozuya yo Eien Nare",
+              "english": "Gintama: The Final Chapter - Be Forever Yorozuya"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx15335-QjijwChGTBs0.png"
+            },
+            "status": "FINISHED",
+            "format": "MOVIE",
+            "season": "SUMMER",
+            "seasonYear": 2013
+          }
+        },
+        {
+          "relationType": "SIDE_STORY",
+          "node": {
+            "id": 20882,
+            "title": {
+              "romaji": "Gintama': Futon ni Haitte kara Buki Nokoshi ni Kizuite Neru ni Nerenai Toki mo Aru",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/20882.jpg"
+            },
+            "status": "FINISHED",
+            "format": "SPECIAL",
+            "season": "FALL",
+            "seasonYear": 2014
+          }
+        },
+        {
+          "relationType": "SUMMARY",
+          "node": {
+            "id": 175573,
+            "title": {
+              "romaji": "Gintama on Theater 2D: Ikkoku Keisei-hen",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx175573-jf4woESV4dx9.jpg"
+            },
+            "status": "FINISHED",
+            "format": "MOVIE",
+            "season": "SPRING",
+            "seasonYear": 2024
+          }
+        },
+        {
+          "relationType": "SUMMARY",
+          "node": {
+            "id": 178436,
+            "title": {
+              "romaji": "Gintama on Theater 2D: Kintama-hen",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx178436-oTiX9xY2yEJZ.jpg"
+            },
+            "status": "FINISHED",
+            "format": "MOVIE",
+            "season": "FALL",
+            "seasonYear": 2024
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 15423,
+    "idMal": 15423,
+    "title": {
+      "romaji": "antinotice",
+      "english": null,
+      "native": "antinotice"
+    },
+    "description": "Music video from Akane Aki.",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15423.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15423.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/15423.jpg"
+    },
+    "startDate": {
+      "year": 2011,
+      "month": 8,
+      "day": 17
+    },
+    "endDate": {
+      "year": 2011,
+      "month": 8,
+      "day": 17
+    },
+    "status": "FINISHED",
+    "episodes": 1,
+    "duration": 3,
+    "genres": [],
+    "averageScore": 51,
+    "popularity": 448,
+    "favourites": 0,
+    "studios": {
+      "nodes": []
+    },
+    "source": "ORIGINAL",
+    "siteUrl": "https://anilist.co/anime/15423",
+    "format": "MUSIC",
+    "season": null,
+    "seasonYear": null,
+    "isAdult": false,
+    "relations": {
+      "edges": []
+    }
+  },
+  {
+    "id": 15431,
+    "idMal": 15431,
+    "title": {
+      "romaji": "Natsuiro Kiseki: 15-kaime no Natsuyasumi",
+      "english": null,
+      "native": "夏色キセキ ～15回目のナツヤスミ～"
+    },
+    "description": "A seven minute epilogue to the TV series, released as an OVA. ",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15431.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15431.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/15431.jpg"
+    },
+    "startDate": {
+      "year": 2012,
+      "month": 8,
+      "day": 29
+    },
+    "endDate": {
+      "year": 2012,
+      "month": 8,
+      "day": 29
+    },
+    "status": "FINISHED",
+    "episodes": 1,
+    "duration": 7,
+    "genres": [
+      "Slice of Life"
+    ],
+    "averageScore": 66,
+    "popularity": 2300,
+    "favourites": 4,
+    "studios": {
+      "nodes": []
+    },
+    "source": null,
+    "siteUrl": "https://anilist.co/anime/15431",
+    "format": "OVA",
+    "season": "SUMMER",
+    "seasonYear": 2012,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "PREQUEL",
+          "node": {
+            "id": 12119,
+            "title": {
+              "romaji": "Natsuiro Kiseki",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx12119-DDxsnzXsveIW.jpg"
+            },
+            "status": "FINISHED",
+            "format": "TV",
+            "season": "SPRING",
+            "seasonYear": 2012
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 15437,
+    "idMal": 15437,
+    "title": {
+      "romaji": "Kore wa Zombie Desu ka? of the Dead: Hai, Minotake ni Attemasu",
+      "english": "Is This a Zombie? Of the Dead: Yes, This Suits Me Just Fine",
+      "native": "これはゾンビですか？オブ・ザ・デッ ド はい、身の丈に合ってます"
+    },
+    "description": "An unaired OVA episode of Kore wa Zombie Desu ka? of the Dead. It is the 11th episode and was bundled with the sixth volume of the manga. ",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n15437-29nx8vXJJ1gy.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n15437-29nx8vXJJ1gy.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/n15437-29nx8vXJJ1gy.jpg"
+    },
+    "startDate": {
+      "year": 2012,
+      "month": 10,
+      "day": 20
+    },
+    "endDate": {
+      "year": 2012,
+      "month": 10,
+      "day": 20
+    },
+    "status": "FINISHED",
+    "episodes": 1,
+    "duration": 26,
+    "genres": [
+      "Action",
+      "Comedy",
+      "Ecchi",
+      "Supernatural"
+    ],
+    "averageScore": 70,
+    "popularity": 21448,
+    "favourites": 99,
+    "studios": {
+      "nodes": []
+    },
+    "source": "LIGHT_NOVEL",
+    "siteUrl": "https://anilist.co/anime/15437",
+    "format": "OVA",
+    "season": "FALL",
+    "seasonYear": 2012,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "PREQUEL",
+          "node": {
+            "id": 10790,
+            "title": {
+              "romaji": "Kore wa Zombie desu ka? of the Dead",
+              "english": "Is this A Zombie? of the Dead"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx10790-nmhjig0cTbI5.png"
+            },
+            "status": "FINISHED",
+            "format": "TV",
+            "season": "SPRING",
+            "seasonYear": 2012
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 15439,
+    "idMal": 15439,
+    "title": {
+      "romaji": "Kono Danshi, Ningyo Hiroimashita.",
+      "english": "This Boy Caught a Merman",
+      "native": "この男子、人魚ひろいました。"
+    },
+    "description": "*The Second OVA of Kono Dan series.<br><br>\nThey say look before you leap and make sure you can swim before you go in the deep water, but when a picture of his late grandfather falls into the ocean, Shima jumps in after it without thinking. Nearly drowning as a result, he is instead saved by a very perfect stranger... one whose strangeness extends to only being human from the waist up!<br><br>\nFor Shima, who's always felt like a fish out of water himself, it's more than just a revelation, and the young man and merman quickly begin to bond in ways neither anticipated. And yet, it's going to be far from easy sailing. After all, Shima and Isaki aren't just from opposite sides of the tracks, they're from entirely divergent species, and swimming in separate gene pools may make maintaining a long term relationship a whole different kettle of fish!<br><br>\n(Source: Sentai Filmworks)<br>",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b15439-vP1rlCJd8N9P.png",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b15439-vP1rlCJd8N9P.png",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b15439-vP1rlCJd8N9P.png"
+    },
+    "startDate": {
+      "year": 2012,
+      "month": 11,
+      "day": 9
+    },
+    "endDate": {
+      "year": 2012,
+      "month": 11,
+      "day": 9
+    },
+    "status": "FINISHED",
+    "episodes": 1,
+    "duration": 30,
+    "genres": [
+      "Fantasy",
+      "Romance"
+    ],
+    "averageScore": 68,
+    "popularity": 7218,
+    "favourites": 64,
+    "studios": {
+      "nodes": [
+        {
+          "name": "CoMix Wave"
+        }
+      ]
+    },
+    "source": "ORIGINAL",
+    "siteUrl": "https://anilist.co/anime/15439",
+    "format": "OVA",
+    "season": "FALL",
+    "seasonYear": 2012,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "OTHER",
+          "node": {
+            "id": 20781,
+            "title": {
+              "romaji": "Kono Danshi, Sekika ni Nayandemasu.",
+              "english": "This Boy Suffers from Crystallization"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/20781.jpg"
+            },
+            "status": "FINISHED",
+            "format": "OVA",
+            "season": "FALL",
+            "seasonYear": 2014
+          }
+        },
+        {
+          "relationType": "OTHER",
+          "node": {
+            "id": 11355,
+            "title": {
+              "romaji": "Kono Danshi, Uchuujin to Tatakaemasu.",
+              "english": "This Boy Can Fight Aliens"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx11355-Jyx651oiiskI.png"
+            },
+            "status": "FINISHED",
+            "format": "OVA",
+            "season": "FALL",
+            "seasonYear": 2011
+          }
+        },
+        {
+          "relationType": "OTHER",
+          "node": {
+            "id": 21435,
+            "title": {
+              "romaji": "Kono Danshi, Mahou ga Oshigoto Desu.",
+              "english": "This Boy is a Professional Wizard"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21435-iCFsQrnF0sHj.jpg"
+            },
+            "status": "FINISHED",
+            "format": "TV_SHORT",
+            "season": "WINTER",
+            "seasonYear": 2016
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 15451,
+    "idMal": 15451,
+    "title": {
+      "romaji": "High School DxD NEW",
+      "english": null,
+      "native": "ハイスクールD×D NEW"
+    },
+    "description": "The devilish haremking Issei Hyoudou is back for more outrageous Oppai Battle Entertainment in the scintillating second season of High School DxD! Fans who like their hardcore action spiked with a double dose of fan service won't be able to pry their eyes off all the scorching supernatural schoolgirls waiting for them in Season Two. So what are you waiting for? Plant yourself in front of the boob tube and watch a harem of devil hotties show you how much fun it is to be bad!<br>\n<br>\n(Source: FUNimation)<br>\n<br>\n<i>Episode 1 was previewed at a screening in United Cinema Toyosu, Tokyo on June 29, 2013. Regular broadcasting began on July 7, 2013.<br>\nThe Blu-ray and DVD Director's Cut includes an extra 3 minutes per episode.</i>",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/15451-QH910C0685l8.png",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx15451-A5T54vmxUq9t.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx15451-A5T54vmxUq9t.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx15451-A5T54vmxUq9t.jpg"
+    },
+    "startDate": {
+      "year": 2013,
+      "month": 6,
+      "day": 29
+    },
+    "endDate": {
+      "year": 2013,
+      "month": 9,
+      "day": 22
+    },
+    "status": "FINISHED",
+    "episodes": 12,
+    "duration": 27,
+    "genres": [
+      "Action",
+      "Comedy",
+      "Ecchi",
+      "Fantasy",
+      "Romance"
+    ],
+    "averageScore": 71,
+    "popularity": 178231,
+    "favourites": 2325,
+    "studios": {
+      "nodes": [
+        {
+          "name": "TNK"
+        }
+      ]
+    },
+    "source": "LIGHT_NOVEL",
+    "siteUrl": "https://anilist.co/anime/15451",
+    "format": "TV",
+    "season": "SUMMER",
+    "seasonYear": 2013,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "ADAPTATION",
+          "node": {
+            "id": 55409,
+            "title": {
+              "romaji": "High School DxD",
+              "english": "High School DxD"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx55409-4WnmVLkRhSVS.jpg"
+            },
+            "status": "FINISHED",
+            "format": "NOVEL",
+            "season": null,
+            "seasonYear": null
+          }
+        },
+        {
+          "relationType": "PREQUEL",
+          "node": {
+            "id": 11617,
+            "title": {
+              "romaji": "High School DxD",
+              "english": "High School DxD"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx11617-nmxMU9Zh3H5R.jpg"
+            },
+            "status": "FINISHED",
+            "format": "TV",
+            "season": "WINTER",
+            "seasonYear": 2012
+          }
+        },
+        {
+          "relationType": "SIDE_STORY",
+          "node": {
+            "id": 21103,
+            "title": {
+              "romaji": "High School DxD NEW OVA Oppai, Tsutsumimasu!",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/21103-iVibYXQ4Z4UF.jpg"
+            },
+            "status": "FINISHED",
+            "format": "OVA",
+            "season": "WINTER",
+            "seasonYear": 2015
+          }
+        },
+        {
+          "relationType": "SEQUEL",
+          "node": {
+            "id": 20745,
+            "title": {
+              "romaji": "High School DxD BorN",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20745-HzWTPFv0P13I.jpg"
+            },
+            "status": "FINISHED",
+            "format": "TV",
+            "season": "SPRING",
+            "seasonYear": 2015
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 15453,
+    "idMal": 15453,
+    "title": {
+      "romaji": "Shinryaku! Ika Musume: Kore ga Umi e no Ai Jana-ika!",
+      "english": null,
+      "native": "これが海への愛じゃなイカ!"
+    },
+    "description": "MV bundled with the limited edition of the Invader Ika Musume album.",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15453.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15453.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/15453.jpg"
+    },
+    "startDate": {
+      "year": 2012,
+      "month": 1,
+      "day": 11
+    },
+    "endDate": {
+      "year": 2012,
+      "month": 1,
+      "day": 11
+    },
+    "status": "FINISHED",
+    "episodes": 1,
+    "duration": 4,
+    "genres": [],
+    "averageScore": 60,
+    "popularity": 1378,
+    "favourites": 3,
+    "studios": {
+      "nodes": []
+    },
+    "source": null,
+    "siteUrl": "https://anilist.co/anime/15453",
+    "format": "MUSIC",
+    "season": null,
+    "seasonYear": null,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "CHARACTER",
+          "node": {
+            "id": 8557,
+            "title": {
+              "romaji": "Shinryaku! Ika Musume",
+              "english": "Squid Girl"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx8557-S9DplekRj7mo.png"
+            },
+            "status": "FINISHED",
+            "format": "TV",
+            "season": "FALL",
+            "seasonYear": 2010
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 15455,
+    "idMal": 15455,
+    "title": {
+      "romaji": "Sakura: Haru no Gensou",
+      "english": null,
+      "native": "桜 - 春の幻想"
+    },
+    "description": "A visually artistic animation with no real story. It follows a pair of butterflies as they drift past various beautiful depictions of people and animals. <br><br>\n(Source: AniDB) ",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15455.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15455.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/15455.jpg"
+    },
+    "startDate": {
+      "year": 1946,
+      "month": null,
+      "day": null
+    },
+    "endDate": {
+      "year": 1946,
+      "month": null,
+      "day": null
+    },
+    "status": "FINISHED",
+    "episodes": 1,
+    "duration": 8,
+    "genres": [
+      "Fantasy"
+    ],
+    "averageScore": 45,
+    "popularity": 669,
+    "favourites": 1,
+    "studios": {
+      "nodes": []
+    },
+    "source": null,
+    "siteUrl": "https://anilist.co/anime/15455",
+    "format": "MOVIE",
+    "season": null,
+    "seasonYear": null,
+    "isAdult": false,
+    "relations": {
+      "edges": []
+    }
+  },
+  {
+    "id": 15479,
+    "idMal": 15479,
+    "title": {
+      "romaji": "Hey Yo Yorang",
+      "english": null,
+      "native": "꼬마여우 요랑"
+    },
+    "description": "Yorang, a fox who lives in heaven and has important responsibilities, would rather play tricks on others and seek fun all day. One day, heaven holds a festival for the completion of the \"Book of Wishes,\" a prestigious work that can help remove the black fox's seal. During this festival, Yo-rang, who is very mischievous, throws away the valuable book. Heaven is threatened by the black fox's bad magic. Yo-rang, responsible for the debacle, searches for the book and meets a boy named \"Kang-hyun,\" who loses his mother at an early age and moves to the Fox Village from Seoul, with his father. Kang-hyun and Yo-rang look for the book together. But the black fox tries to ruin their plan, and Kang-hyun and Yo-rang encounter all kinds of hardship. In the end, they develop a strong friendship. <br><br>\n(Source: Arirang TV) ",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15479.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15479.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/15479.jpg"
+    },
+    "startDate": {
+      "year": 2003,
+      "month": 7,
+      "day": 23
+    },
+    "endDate": {
+      "year": 2004,
+      "month": 2,
+      "day": 11
+    },
+    "status": "FINISHED",
+    "episodes": 26,
+    "duration": 25,
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Fantasy"
+    ],
+    "averageScore": null,
+    "popularity": 173,
+    "favourites": 2,
+    "studios": {
+      "nodes": []
+    },
+    "source": null,
+    "siteUrl": "https://anilist.co/anime/15479",
+    "format": "TV",
+    "season": null,
+    "seasonYear": null,
+    "isAdult": false,
+    "relations": {
+      "edges": []
+    }
+  },
+  {
+    "id": 15487,
+    "idMal": 15487,
+    "title": {
+      "romaji": "Kuroko no Basket NG-shuu",
+      "english": "Kuroko's Basketball Specials",
+      "native": "黒子のバスケNG集"
+    },
+    "description": "Animated bloopers, based on the extra section of the original manga series, included with the BD/DVD series for Kuroko no Basket (both limited and normal editions).",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15487.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15487.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/15487.jpg"
+    },
+    "startDate": {
+      "year": 2012,
+      "month": 7,
+      "day": 27
+    },
+    "endDate": {
+      "year": 2013,
+      "month": 3,
+      "day": 22
+    },
+    "status": "FINISHED",
+    "episodes": 9,
+    "duration": 4,
+    "genres": [
+      "Comedy",
+      "Sports"
+    ],
+    "averageScore": 72,
+    "popularity": 13477,
+    "favourites": 54,
+    "studios": {
+      "nodes": [
+        {
+          "name": "Production I.G"
+        }
+      ]
+    },
+    "source": "MANGA",
+    "siteUrl": "https://anilist.co/anime/15487",
+    "format": "SPECIAL",
+    "season": "SUMMER",
+    "seasonYear": 2012,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "PARENT",
+          "node": {
+            "id": 11771,
+            "title": {
+              "romaji": "Kuroko no Basket",
+              "english": "Kuroko's Basketball"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx11771-uvr44RAwRxPw.jpg"
+            },
+            "status": "FINISHED",
+            "format": "TV",
+            "season": "SPRING",
+            "seasonYear": 2012
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 15489,
+    "idMal": 15489,
+    "title": {
+      "romaji": "Yu☆Gi☆Oh! ZEXAL II",
+      "english": "Yu-Gi-Oh! ZEXAL II",
+      "native": "遊☆戯☆王ZEXALⅡ（セカンド）"
+    },
+    "description": "The continuation of Yu-Gi-Oh! Zexal. <br><br>\r\nA new enemy has been revealed - Barian. They wish to gather the \"Numbers\" and destroy the Astral World to avoid their own world's destruction. As such, Yuma and his friends are their prime target, and the Barian begin to slowly enter Heartland City.",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/15489-uyPpbIa11CSx.png",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15489-bkJWvWqZSKXz.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx15489-bkJWvWqZSKXz.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx15489-bkJWvWqZSKXz.jpg"
+    },
+    "startDate": {
+      "year": 2012,
+      "month": 10,
+      "day": 7
+    },
+    "endDate": {
+      "year": 2014,
+      "month": 3,
+      "day": 23
+    },
+    "status": "FINISHED",
+    "episodes": 73,
+    "duration": 23,
+    "genres": [
+      "Action",
+      "Fantasy"
+    ],
+    "averageScore": 67,
+    "popularity": 10971,
+    "favourites": 244,
+    "studios": {
+      "nodes": [
+        {
+          "name": "Studio Gallop"
+        }
+      ]
+    },
+    "source": "MANGA",
+    "siteUrl": "https://anilist.co/anime/15489",
+    "format": "TV",
+    "season": "FALL",
+    "seasonYear": 2012,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "PREQUEL",
+          "node": {
+            "id": 10015,
+            "title": {
+              "romaji": "Yu☆Gi☆Oh! ZEXAL",
+              "english": "Yu-Gi-Oh! Zexal"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx10015-S7qEYfWP8ibi.png"
+            },
+            "status": "FINISHED",
+            "format": "TV",
+            "season": "SPRING",
+            "seasonYear": 2011
+          }
+        },
+        {
+          "relationType": "OTHER",
+          "node": {
+            "id": 114072,
+            "title": {
+              "romaji": "Yu☆Gi☆Oh! SEVENS",
+              "english": "Yu-Gi-Oh! SEVENS"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx114072-3C6Bbv490sNj.jpg"
+            },
+            "status": "FINISHED",
+            "format": "TV",
+            "season": "SPRING",
+            "seasonYear": 2020
+          }
+        },
+        {
+          "relationType": "OTHER",
+          "node": {
+            "id": 142842,
+            "title": {
+              "romaji": "Yu☆Gi☆Oh! Go Rush!!",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx142842-sz1cRActqBe3.jpg"
+            },
+            "status": "FINISHED",
+            "format": "TV",
+            "season": "SPRING",
+            "seasonYear": 2022
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 15505,
+    "idMal": 15505,
+    "title": {
+      "romaji": "Shining Hearts: Shiawase no Pan Specials",
+      "english": null,
+      "native": "シャイニング・ハーツ 〜幸せのパン〜"
+    },
+    "description": "The 6 short \"Chibi Style\" Specials on each of the Blu-rays/DVDs.",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15505.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15505.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/15505.jpg"
+    },
+    "startDate": {
+      "year": 2012,
+      "month": 7,
+      "day": 27
+    },
+    "endDate": {
+      "year": 2012,
+      "month": 12,
+      "day": 21
+    },
+    "status": "FINISHED",
+    "episodes": 6,
+    "duration": 3,
+    "genres": [
+      "Fantasy"
+    ],
+    "averageScore": 51,
+    "popularity": 598,
+    "favourites": 0,
+    "studios": {
+      "nodes": [
+        {
+          "name": "Studio PuYUKAI"
+        }
+      ]
+    },
+    "source": null,
+    "siteUrl": "https://anilist.co/anime/15505",
+    "format": "SPECIAL",
+    "season": "SUMMER",
+    "seasonYear": 2012,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "PARENT",
+          "node": {
+            "id": 12367,
+            "title": {
+              "romaji": "Shining Hearts: Shiawase no Pan",
+              "english": "Shining Hearts"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b12367-lQYkVb6OJjyf.jpg"
+            },
+            "status": "FINISHED",
+            "format": "TV",
+            "season": "SPRING",
+            "seasonYear": 2012
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 15525,
+    "idMal": 15525,
+    "title": {
+      "romaji": "Bokura no Hero",
+      "english": null,
+      "native": "僕らのヒーロー"
+    },
+    "description": "Music video for the song <i>Bokura no Hero</i> that was featured on NHK's Minna no Uta program.",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15525.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15525.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/15525.jpg"
+    },
+    "startDate": {
+      "year": 2010,
+      "month": 1,
+      "day": 6
+    },
+    "endDate": {
+      "year": 2010,
+      "month": 1,
+      "day": 6
+    },
+    "status": "FINISHED",
+    "episodes": 1,
+    "duration": 3,
+    "genres": [],
+    "averageScore": 44,
+    "popularity": 197,
+    "favourites": 0,
+    "studios": {
+      "nodes": []
+    },
+    "source": "ORIGINAL",
+    "siteUrl": "https://anilist.co/anime/15525",
+    "format": "MUSIC",
+    "season": null,
+    "seasonYear": null,
+    "isAdult": false,
+    "relations": {
+      "edges": []
+    }
+  },
+  {
+    "id": 15527,
+    "idMal": 15527,
+    "title": {
+      "romaji": "Hanabeam",
+      "english": null,
+      "native": null
+    },
+    "description": "Hanabeam is the lead track and video from Hifana's album 24H, released July 28, 2010. With the sound of fireworks at the core, this explosive single was composed by Hifana and is a fresh sonic expression of a Japanese summer matsuri (festival), filtered through Hifana's signature Tokyo-born Japanese hybrid breakbeats. The video, co-directed by Fantasista Utamaro and Shane Lester, is another potent expression of Hifana's unique mixing of the old and new of Japanese aesthetics, updating and hybridizing the rich cultural traditions of matsuri and hanabi (fireworks). Hifana are represented by two Hanabi-shi (fireworks craftsmen) in this video, as they gradually re-energize a depressed city through the power of their beats, arriving at an enchanted temple where they unleash their final ultimate hanabi, triggering a colorful climax of explosive energy. <br><br>\n(Source: AniDB) ",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15527.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15527.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/15527.jpg"
+    },
+    "startDate": {
+      "year": 2010,
+      "month": 6,
+      "day": 17
+    },
+    "endDate": {
+      "year": 2010,
+      "month": 6,
+      "day": 17
+    },
+    "status": "FINISHED",
+    "episodes": 1,
+    "duration": 3,
+    "genres": [],
+    "averageScore": 39,
+    "popularity": 295,
+    "favourites": 0,
+    "studios": {
+      "nodes": []
+    },
+    "source": null,
+    "siteUrl": "https://anilist.co/anime/15527",
+    "format": "MUSIC",
+    "season": null,
+    "seasonYear": null,
+    "isAdult": false,
+    "relations": {
+      "edges": []
+    }
+  },
+  {
+    "id": 15529,
+    "idMal": 15529,
+    "title": {
+      "romaji": "WAMONO",
+      "english": null,
+      "native": "WAMONO"
+    },
+    "description": "A music video for the song Wamono by the Japanese break-beat duo Hifana from their album \"Channel H.\" <br><br>\nThe beat junkies duo of Hifana set sail as two determined fishermen in hopes of a big Tairyo catch in this epic and surreal Japanese folklore between man and his beats against the raging waves and stormy seas in the land of Wamono.",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15529.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15529.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/15529.jpg"
+    },
+    "startDate": {
+      "year": 2010,
+      "month": 6,
+      "day": 17
+    },
+    "endDate": {
+      "year": 2010,
+      "month": 6,
+      "day": 17
+    },
+    "status": "FINISHED",
+    "episodes": 1,
+    "duration": 4,
+    "genres": [],
+    "averageScore": 42,
+    "popularity": 181,
+    "favourites": 0,
+    "studios": {
+      "nodes": []
+    },
+    "source": null,
+    "siteUrl": "https://anilist.co/anime/15529",
+    "format": "MUSIC",
+    "season": null,
+    "seasonYear": null,
+    "isAdult": false,
+    "relations": {
+      "edges": []
+    }
+  },
+  {
+    "id": 15533,
+    "idMal": 15533,
+    "title": {
+      "romaji": "Yakimochi Caprice",
+      "english": null,
+      "native": "やきもち狂想曲"
+    },
+    "description": "Special ending animation sequence for the \"Anime Seijin: Tokimeki Recipe\" cooking and talk show. <br><br>\nThe \"nonsensical romantic fantasy\" of the anime centres around a kitten named Loup and a puppy named Noix &mdash; both of whom believe that they are actually human girls.\n<br><br>\n(Source: Anime News Network)",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15533.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15533.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/15533.jpg"
+    },
+    "startDate": {
+      "year": 2011,
+      "month": 12,
+      "day": 17
+    },
+    "endDate": {
+      "year": 2012,
+      "month": 4,
+      "day": 9
+    },
+    "status": "FINISHED",
+    "episodes": 2,
+    "duration": 1,
+    "genres": [
+      "Slice of Life"
+    ],
+    "averageScore": 43,
+    "popularity": 353,
+    "favourites": 0,
+    "studios": {
+      "nodes": []
+    },
+    "source": null,
+    "siteUrl": "https://anilist.co/anime/15533",
+    "format": "SPECIAL",
+    "season": "WINTER",
+    "seasonYear": 2011,
+    "isAdult": false,
+    "relations": {
+      "edges": []
+    }
+  },
+  {
+    "id": 15535,
+    "idMal": 15535,
+    "title": {
+      "romaji": "Yumekuri",
+      "english": null,
+      "native": "ゆめくり"
+    },
+    "description": "The story revolves around Yukami Makoto, a high school boy whose hobby is visiting hot springs. His 100th hot spring visit is at Miyama-kan, an inn run by four poster girls: Tokura, Akino, Tsutsuji and Mitomo. There, Makoto spies Yuri, a goddess of the hot springs, and unexpectedly usurps her powers. Makoto ends up working at the inn.\n<br><br>\n(Source: Anime News Network)",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b15535-CgM04svC91uf.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b15535-CgM04svC91uf.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b15535-CgM04svC91uf.jpg"
+    },
+    "startDate": {
+      "year": 2012,
+      "month": 11,
+      "day": 28
+    },
+    "endDate": {
+      "year": 2012,
+      "month": 11,
+      "day": 28
+    },
+    "status": "FINISHED",
+    "episodes": 1,
+    "duration": 6,
+    "genres": [
+      "Supernatural"
+    ],
+    "averageScore": 50,
+    "popularity": 2348,
+    "favourites": 4,
+    "studios": {
+      "nodes": []
+    },
+    "source": "MANGA",
+    "siteUrl": "https://anilist.co/anime/15535",
+    "format": "OVA",
+    "season": "FALL",
+    "seasonYear": 2012,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "ADAPTATION",
+          "node": {
+            "id": 64627,
+            "title": {
+              "romaji": "Yumekuri",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx64627-n79PDIWeWqnE.jpg"
+            },
+            "status": "FINISHED",
+            "format": "MANGA",
+            "season": null,
+            "seasonYear": null
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 15537,
+    "idMal": 15537,
+    "title": {
+      "romaji": "Tsugou no Yoi Sexfriend?",
+      "english": null,
+      "native": "都合のよいセックスフレンド?"
+    },
+    "description": "Based on the erotic game by Waffle.<br>\n<br>\nArahama Yuu has 5 sex-friends. One day, his easygoing sex-life reaches a precipice. One of his partners, Shimizu Misako, who is also a co-worker at his company, had been sleeping with him on the understanding that they would marry. However, he only considered her a sex-friend, and even revealed the existence of the other 4. Incensed, she has him gather the other 4 together in his apartment.<br>\n<br>\nShimizu discovers that Arahama has surrounded himself in the company of many beauties of differing personalities. Besides herself, the others are: Yanagi Ryouko who runs a cafe near Arahama's apartment; Hoshino Kotori, a schoolgirl of his acquaintance; Endou Makiko, who manages a large company; and Kamishima Aina whom he met on an on-line dating site.<br>\n<br>\nShimizu demands that Arahama ceases having casual relations and marries someone. However, the situation get heated and confusing until Arahama somehow ends up proposing to all of them.<br>\n<br>\nIn the days that follow, Arahama visits each of them individually in an effort to withdraw his marriage proposal.<br>\n<br>\n(Source: Official Site)",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/15537-enhtjK6b5Idk.jpg",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15537-bYLhzaT3HjHP.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx15537-bYLhzaT3HjHP.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx15537-bYLhzaT3HjHP.jpg"
+    },
+    "startDate": {
+      "year": 2012,
+      "month": 11,
+      "day": 30
+    },
+    "endDate": {
+      "year": 2015,
+      "month": 1,
+      "day": 30
+    },
+    "status": "FINISHED",
+    "episodes": 4,
+    "duration": 30,
+    "genres": [
+      "Hentai"
+    ],
+    "averageScore": 68,
+    "popularity": 4736,
+    "favourites": 133,
+    "studios": {
+      "nodes": []
+    },
+    "source": "VISUAL_NOVEL",
+    "siteUrl": "https://anilist.co/anime/15537",
+    "format": "OVA",
+    "season": "FALL",
+    "seasonYear": 2012,
+    "isAdult": true,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "ADAPTATION",
+          "node": {
+            "id": 92720,
+            "title": {
+              "romaji": "Tsugou no Yoi Sex Friend?",
+              "english": "Sex Friends Convenience?"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/92720-sdY1LW8LzEnk.jpg"
+            },
+            "status": "FINISHED",
+            "format": "NOVEL",
+            "season": null,
+            "seasonYear": null
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 15539,
+    "idMal": 15539,
+    "title": {
+      "romaji": "Unsweet: Netorare Ochita Onna-tachi - Jokyoushi Kurose Katsuko-hen",
+      "english": null,
+      "native": "アンスイート－寝取られ堕ちた女たち－ 女教師 黒瀬勝子編"
+    },
+    "description": "Katsuko Kurose is a stubborn female teacher who takes her students seriously in accordance with her beliefs. A workaholic woman who has entered her thirties as a virgin, the first man she ever loved was her own student, Jun......<br>\n<br>\nKatsuko is a beginner in love, but her strong and demanding personality gets in the way, and she sometimes unleashes unexpected words on Jun. Even so, she and Jun grow closer, little by little, and Katsuko and Jun's \"secret love\" slowly deepens.<br>\n<br>\nThen comes Jun's birthday. In Katsuko's room, one of the few places where they can meet in secret, the two are united for the first time. They were able to dedicate their first time to their beloved...... That was the only thing that mattered to both of them, and they could feel their bond deepening.<br>\n<br>\nOne day, however, Jun's classmate Shinohara sees them meeting secretly at the school. That night, Shinohara visited Katsuko's room and threatened her with a story about this, and then he started to fuck out every inch of her body......!!",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15539-mwmJdwwe2HIi.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx15539-mwmJdwwe2HIi.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx15539-mwmJdwwe2HIi.jpg"
+    },
+    "startDate": {
+      "year": 2012,
+      "month": 10,
+      "day": 19
+    },
+    "endDate": {
+      "year": 2012,
+      "month": 10,
+      "day": 19
+    },
+    "status": "FINISHED",
+    "episodes": 1,
+    "duration": 28,
+    "genres": [
+      "Hentai"
+    ],
+    "averageScore": 57,
+    "popularity": 1873,
+    "favourites": 48,
+    "studios": {
+      "nodes": [
+        {
+          "name": "Cotton Doll"
+        }
+      ]
+    },
+    "source": "MANGA",
+    "siteUrl": "https://anilist.co/anime/15539",
+    "format": "OVA",
+    "season": "FALL",
+    "seasonYear": 2012,
+    "isAdult": true,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "ADAPTATION",
+          "node": {
+            "id": 66555,
+            "title": {
+              "romaji": "Unsweet: Netorare Ochita Onna-tachi",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/36555.jpg"
+            },
+            "status": "FINISHED",
+            "format": "MANGA",
+            "season": null,
+            "seasonYear": null
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 15541,
+    "idMal": 15541,
+    "title": {
+      "romaji": "Namanaka Hyaku Percent!",
+      "english": null,
+      "native": "生膣ひゃくぱぁせんと!"
+    },
+    "description": "\"Shinpa\", the practice of having on one's person a shoelace which color signifies his or her preferred sexual fetish. In this way also is one able to search out his/her ideal partner.<br>\n<br>\n(Source: translated and adapted from official site by Cranston)",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15541.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15541.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/15541.jpg"
+    },
+    "startDate": {
+      "year": 2012,
+      "month": 11,
+      "day": 23
+    },
+    "endDate": {
+      "year": 2013,
+      "month": 6,
+      "day": 7
+    },
+    "status": "FINISHED",
+    "episodes": 3,
+    "duration": 24,
+    "genres": [
+      "Hentai"
+    ],
+    "averageScore": 60,
+    "popularity": 1523,
+    "favourites": 20,
+    "studios": {
+      "nodes": []
+    },
+    "source": "MANGA",
+    "siteUrl": "https://anilist.co/anime/15541",
+    "format": "OVA",
+    "season": "FALL",
+    "seasonYear": 2012,
+    "isAdult": true,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "ADAPTATION",
+          "node": {
+            "id": 68499,
+            "title": {
+              "romaji": "Namanaka Hyaku Percent!",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/38499.jpg"
+            },
+            "status": "FINISHED",
+            "format": "MANGA",
+            "season": null,
+            "seasonYear": null
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 15545,
+    "idMal": 15545,
+    "title": {
+      "romaji": "Oshiri Kajiri Mushi 1",
+      "english": "Bottom Biting Bug",
+      "native": "おしりかじり虫"
+    },
+    "description": "A gag comedy about Oshiri Kajiri Mushi XVIII, a 10-year-old insect who goes to Biting School to inherit his family's Biting Shop business.\n<br><br>\n(Source: Anime News Network)",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b15545-y3haG3QsLtS1.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b15545-y3haG3QsLtS1.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b15545-y3haG3QsLtS1.jpg"
+    },
+    "startDate": {
+      "year": 2012,
+      "month": 10,
+      "day": 7
+    },
+    "endDate": {
+      "year": 2013,
+      "month": 2,
+      "day": 24
+    },
+    "status": "FINISHED",
+    "episodes": 20,
+    "duration": 5,
+    "genres": [],
+    "averageScore": 43,
+    "popularity": 490,
+    "favourites": 0,
+    "studios": {
+      "nodes": [
+        {
+          "name": "Kinema Citrus"
+        }
+      ]
+    },
+    "source": "OTHER",
+    "siteUrl": "https://anilist.co/anime/15545",
+    "format": "TV_SHORT",
+    "season": "FALL",
+    "seasonYear": 2012,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "SEQUEL",
+          "node": {
+            "id": 19755,
+            "title": {
+              "romaji": "Oshiri Kajiri Mushi 2",
+              "english": "Bottom Biting Bug 2"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/19755.jpg"
+            },
+            "status": "FINISHED",
+            "format": "TV_SHORT",
+            "season": "FALL",
+            "seasonYear": 2013
+          }
+        },
+        {
+          "relationType": "CHARACTER",
+          "node": {
+            "id": 8604,
+            "title": {
+              "romaji": "Oshiri Kajiri Mushi",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/8604.jpg"
+            },
+            "status": "FINISHED",
+            "format": "MUSIC",
+            "season": null,
+            "seasonYear": null
+          }
+        },
+        {
+          "relationType": "PARENT",
+          "node": {
+            "id": 178602,
+            "title": {
+              "romaji": "Oshiri no Yama wa Everest",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b178602-1MqnklxOiAIX.png"
+            },
+            "status": "FINISHED",
+            "format": "MUSIC",
+            "season": null,
+            "seasonYear": null
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 15547,
+    "idMal": 15547,
+    "title": {
+      "romaji": "Cross Fight B-Daman eS",
+      "english": "B-Daman Fireblast",
+      "native": "クロスファイト ビーダマン eS"
+    },
+    "description": "The anime takes place in Crest Land, where the mysterious B-Crystal has started to go berserk. The main protagonist Godai Kamon lives in the south area of Crest Land, and is an energetic boy who loves B-Daman. However, he lost his all past memories of B-Daman and his family, except for his big sister Aona who lives with him. One day, Kamon meets Galvan, a B-Daman at his local B-Daman shop, B-Junk, and he finds Galvan strangely familiar. Galvan becomes his partner, and he returns to the B-Daman battles once again.\n<br><br>\n(Source: Anime News Network)",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15547-xmpvil0LHdUe.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx15547-xmpvil0LHdUe.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx15547-xmpvil0LHdUe.jpg"
+    },
+    "startDate": {
+      "year": 2012,
+      "month": 10,
+      "day": 7
+    },
+    "endDate": {
+      "year": 2013,
+      "month": 9,
+      "day": 29
+    },
+    "status": "FINISHED",
+    "episodes": 52,
+    "duration": 12,
+    "genres": [],
+    "averageScore": 59,
+    "popularity": 1115,
+    "favourites": 9,
+    "studios": {
+      "nodes": [
+        {
+          "name": "SynergySP"
+        }
+      ]
+    },
+    "source": "OTHER",
+    "siteUrl": "https://anilist.co/anime/15547",
+    "format": "TV_SHORT",
+    "season": "FALL",
+    "seasonYear": 2012,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "PREQUEL",
+          "node": {
+            "id": 11177,
+            "title": {
+              "romaji": "Cross Fight B-Daman",
+              "english": "B-Daman Crossfire"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b11177-J1HL9M9m1ZNs.jpg"
+            },
+            "status": "FINISHED",
+            "format": "TV_SHORT",
+            "season": "FALL",
+            "seasonYear": 2011
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 15565,
+    "idMal": 15565,
+    "title": {
+      "romaji": "Maken-Ki! Tsuu",
+      "english": "Maken-Ki! Battling Venus 2",
+      "native": "マケン姫っ！通"
+    },
+    "description": "Takeru continues his education at Tenbi Academy as part of the newly formed Security Committee. As a team with the other members they battle unscrupulous individuals who use their Maken for evil purposes. In the meantime, his libido and the conflicting romantic interests of the girls surrounding him complicate matters considerably. ",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/15565-maADKC9vlpH9.png",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b15565-2nDrmF9RMTwP.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b15565-2nDrmF9RMTwP.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b15565-2nDrmF9RMTwP.jpg"
+    },
+    "startDate": {
+      "year": 2014,
+      "month": 1,
+      "day": 16
+    },
+    "endDate": {
+      "year": 2014,
+      "month": 3,
+      "day": 20
+    },
+    "status": "FINISHED",
+    "episodes": 10,
+    "duration": 24,
+    "genres": [
+      "Action",
+      "Ecchi"
+    ],
+    "averageScore": 58,
+    "popularity": 30984,
+    "favourites": 261,
+    "studios": {
+      "nodes": [
+        {
+          "name": "Xebec"
+        }
+      ]
+    },
+    "source": "MANGA",
+    "siteUrl": "https://anilist.co/anime/15565",
+    "format": "TV",
+    "season": "WINTER",
+    "seasonYear": 2014,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "PREQUEL",
+          "node": {
+            "id": 11209,
+            "title": {
+              "romaji": "Maken-Ki! OVA",
+              "english": "Maken-Ki! OVA"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/11209.jpg"
+            },
+            "status": "FINISHED",
+            "format": "OVA",
+            "season": "SPRING",
+            "seasonYear": 2012
+          }
+        },
+        {
+          "relationType": "ADAPTATION",
+          "node": {
+            "id": 37186,
+            "title": {
+              "romaji": "Maken-Ki!",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx37186-PceZKqLKoEJz.jpg"
+            },
+            "status": "FINISHED",
+            "format": "MANGA",
+            "season": null,
+            "seasonYear": null
+          }
+        },
+        {
+          "relationType": "SIDE_STORY",
+          "node": {
+            "id": 20750,
+            "title": {
+              "romaji": "Maken-Ki! Tsuu P～Watakushigoto",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/20750.jpg"
+            },
+            "status": "FINISHED",
+            "format": "SPECIAL",
+            "season": "SPRING",
+            "seasonYear": 2014
+          }
+        }
+      ]
+    }
+  }
+]
