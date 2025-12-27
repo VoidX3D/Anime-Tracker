@@ -10,7 +10,7 @@ export default function PrivacyPage() {
                 <div className="space-y-4">
                     <h2 className="text-xl font-black text-white uppercase tracking-widest">01. Data_Telemetry</h2>
                     <p>
-                        AnimeTarget (Millennium Edition) localizes your watch history within your own browser and a secure Supabase enclave. We do not transmit your "Neural Index" to third-party advertisers. All telemetry is strictly operational.
+                        AnimeTarget (Millennium Edition) localizes your watch history within your own browser and a secure Supabase enclave. We do not transmit your &ldquo;Neural Index&rdquo; to third-party advertisers. All telemetry is strictly operational.
                     </p>
                 </div>
 

@@ -104,7 +104,7 @@ async function fetchAniList(id: number) {
 async function startFinalExtraction() {
     console.log('--- MISSION: FINAL_EXTRACTION ---');
     const exportData = JSON.parse(fs.readFileSync('export.json', 'utf8'));
-    let missing = [];
+    const missing = [];
 
     for (const [category, items] of Object.entries(exportData)) {
         const ustatus = STATUS_MAP[category];

@@ -52,7 +52,6 @@ export async function uploadAndDiff(formData: FormData) {
         if (!dbAnimes || !dbList) return { error: 'Database fetch failed' };
 
         // Calculate Diff
-        // @ts-ignore
         const diffs = calculateDiff(json, dbAnimes, dbList);
 
         // Log the Scan
@@ -119,9 +118,10 @@ export async function applyChange(diff: DiffItem) {
         revalidatePath('/library');
         return { success: true };
 
-    } catch (e: any) {
+    } catch (e: unknown) {
         console.error(e);
-        return { error: e.message || 'Mission Failure' };
+        const errorMessage = e instanceof Error ? e.message : 'Mission Failure';
+        return { error: errorMessage };
     }
 }
 
@@ -133,8 +133,8 @@ async function fetchAniList(id: number) {
             body: JSON.stringify({ query: ANILIST_QUERY, variables: { id } })
         });
 
-        const json = await res.json();
-        const media = json.data?.Media;
+        const json: { data?: { Media?: Record<string, any> } } = await res.json();
+        const media = json.data?.Media as any;
 
         if (!media) return null;
 
@@ -153,7 +153,7 @@ async function fetchAniList(id: number) {
             duration: media.duration,
             genres: media.genres,
             average_score: media.averageScore,
-            studios: media.studios?.nodes?.map((s: any) => s.name) || [],
+            studios: media.studios?.nodes?.map((s: { name: string }) => s.name) || [],
             source: media.source,
             mal_id: media.idMal,
             anilist_url: media.siteUrl,
@@ -169,7 +169,7 @@ async function fetchAniList(id: number) {
     }
 }
 
-function formatDate(date: any) {
+function formatDate(date: { year?: number; month?: number; day?: number } | null | undefined) {
     if (!date?.year) return null;
     return `${date.year}-${String(date.month || 1).padStart(2, '0')}-${String(date.day || 1).padStart(2, '0')}`;
 }

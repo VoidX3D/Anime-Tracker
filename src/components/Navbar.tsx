@@ -8,15 +8,20 @@ type Theme = 'millennium' | 'cyberpunk' | 'monochrome';
 
 export default function Navbar() {
     const pathname = usePathname();
-    const [theme, setTheme] = useState<Theme>('millennium');
+    const [theme, setTheme] = useState<Theme>(() => {
+        if (typeof window !== 'undefined') {
+            const saved = localStorage.getItem('at-theme') as Theme;
+            if (saved) {
+                document.documentElement.setAttribute('data-theme', saved);
+                return saved;
+            }
+        }
+        return 'millennium';
+    });
 
     useEffect(() => {
-        const savedTheme = localStorage.getItem('at-theme') as Theme;
-        if (savedTheme) {
-            setTheme(savedTheme);
-            document.documentElement.setAttribute('data-theme', savedTheme);
-        }
-    }, []);
+        document.documentElement.setAttribute('data-theme', theme);
+    }, [theme]);
 
     const toggleTheme = () => {
         const themes: Theme[] = ['millennium', 'cyberpunk', 'monochrome'];

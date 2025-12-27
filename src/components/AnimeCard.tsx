@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import { Anime, UserAnimeStatus } from '@/types';
 import NeuralImage from './NeuralImage';

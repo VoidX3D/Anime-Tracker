@@ -18,7 +18,7 @@ const STATUS_MAP: Record<string, string> = {
 async function executeAbsoluteParity() {
     console.log('--- MISSION: ABSOLUTE_PARITY ---');
     const exportData = JSON.parse(fs.readFileSync('export.json', 'utf8'));
-    let targets = [];
+    const targets = [];
 
     for (const [category, items] of Object.entries(exportData)) {
         const status = STATUS_MAP[category];

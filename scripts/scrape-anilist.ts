@@ -165,7 +165,7 @@ async function scrape() {
 
     // Load user list for matching
     const exportPath = path.join(process.cwd(), 'export.json');
-    let userStatusMap: Record<number, string> = {};
+    const userStatusMap: Record<number, string> = {};
     if (fs.existsSync(exportPath)) {
         try {
             const jsonData = JSON.parse(fs.readFileSync(exportPath, 'utf-8'));

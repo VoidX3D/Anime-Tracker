@@ -23,7 +23,7 @@ function getAniListId(url?: string): number | null {
     return match ? parseInt(match[1], 10) : null;
 }
 
-export async function smartSyncAction(fileData: any) {
+export async function smartSyncAction(fileData: Record<string, unknown>) {
     try {
         console.log('Starting Smart Sync Operation...');
 
@@ -34,7 +34,7 @@ export async function smartSyncAction(fileData: any) {
             const status = STATUS_MAP[category];
             if (!status) continue;
 
-            const items: ExportItem[] = fileData[category];
+            const items: ExportItem[] = fileData[category] as ExportItem[];
 
             for (const item of items) {
                 const alId = getAniListId(item.al);

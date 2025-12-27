@@ -95,7 +95,7 @@ async function startSurgicalSync() {
     console.log('--- MISSION: SURGICAL_SYNC ---');
     const exportData = JSON.parse(fs.readFileSync('export.json', 'utf8'));
     let totalItems = 0;
-    let missingIds = [];
+    const missingIds = [];
 
     for (const [category, items] of Object.entries(exportData)) {
         const status = STATUS_MAP[category];

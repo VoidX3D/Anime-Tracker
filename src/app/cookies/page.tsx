@@ -10,7 +10,7 @@ export default function CookiesPage() {
                 <div className="space-y-4">
                     <h2 className="text-xl font-black text-white uppercase tracking-widest">Digital_Seeds</h2>
                     <p>
-                        We utilize minimal "Digital Seeds" (cookies and localStorage) to persist your operational preferences.
+                        We utilize minimal &ldquo;Digital Seeds&rdquo; (cookies and localStorage) to persist your operational preferences.
                     </p>
                     <ul className="list-disc pl-6 space-y-2 text-text-muted">
                         <li><strong>at-theme</strong>: Remembers your selected chromatic sector (Cyberpunk, etc.).</li>

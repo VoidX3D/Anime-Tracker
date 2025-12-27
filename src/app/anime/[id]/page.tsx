@@ -1,5 +1,5 @@
 import { supabase } from '@/lib/supabaseClient';
-import { Anime, UserAnimeStatus } from '@/types';
+import { UserAnimeStatus } from '@/types';
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import StatusSelector from '@/components/StatusSelector';

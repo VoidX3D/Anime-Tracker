@@ -22,12 +22,16 @@ interface ClientHomeProps {
 
 export default function ClientHome({ initialData, totalHits, genres, currentParams }: ClientHomeProps) {
     const router = useRouter();
-    const [view, setView] = useState<'grid' | 'list'>('grid');
+    const [view, setView] = useState<'grid' | 'list'>(() => {
+        if (typeof window !== 'undefined') {
+            const saved = localStorage.getItem('library-view') as 'grid' | 'list';
+            return saved || 'grid';
+        }
+        return 'grid';
+    });
     const [isMounted, setIsMounted] = useState(false);
 
     useEffect(() => {
-        const savedView = localStorage.getItem('library-view') as 'grid' | 'list';
-        if (savedView) setView(savedView);
         setIsMounted(true);
     }, []);
 
